@@ -1,5 +1,7 @@
 #include "detect-crc32.h"
 #include "elf-parser.h"
+#include <sys/syscall.h>
+#include <fcntl.h>
 
 
 void* GetModuleBase(const char *name) {
@@ -38,11 +40,17 @@ uint32_t calcCRC32(char* message, size_t message_length){
 }
 
 // 獲取指定文件的.text段的CRC32值
-uint32_t getLocalTextCRC32(const char* pathanme, uint32_t& offset, uint32_t& size){
+uint32_t getLocalTextCRC32(const char* pathanme, uint32_t& offset, uint32_t& size, bool useSyscall){
     int32_t fd;
     Elf32_Ehdr eh;		/* elf-header is fixed size */
 
-    fd = open(pathanme, O_RDONLY|O_SYNC);
+    if(useSyscall){
+        fd = syscall(__NR_openat, AT_FDCWD, pathanme, O_RDONLY|O_SYNC, 0);
+    }else{
+        fd = open(pathanme, O_RDONLY|O_SYNC);
+    }
+
+
     if(fd < 0) {
         LOGE("Error %d Unable to open %s\n", fd, pathanme);
         return -1;
@@ -94,10 +102,10 @@ uint32_t getMapsTextCRC32(const char* soName, uint32_t offset, uint32_t size){
     uint32_t crcVal = calcCRC32((char*)((uintptr_t)base + offset), size);
 
     return crcVal;
-
 }
 
 bool sameTextCRC32;
+bool sameTextCRC32_sys;
 
 __attribute__((constructor()))
 void detectCRC32(){
@@ -105,7 +113,7 @@ void detectCRC32(){
     // Env: pixelXL1 aosp8
     const char* localLibcPath = "/system/lib64/libc.so";
     uint32_t offset, size;
-    uint32_t localTextCRC32 = getLocalTextCRC32(localLibcPath, offset, size);
+    uint32_t localTextCRC32 = getLocalTextCRC32(localLibcPath, offset, size, false);
 
     LOGD("local libc.so CRC32 = %p", localTextCRC32);
 
@@ -115,4 +123,17 @@ void detectCRC32(){
     LOGD("maps libc.so CRC32 = %p", mapsTextCRC32);
 
     sameTextCRC32 = (localTextCRC32 == mapsTextCRC32);
+}
+
+__attribute__((constructor()))
+void detectCRC32WithSyscall(){
+
+    // Env: pixelXL1 aosp8
+    const char* localLibcPath = "/system/lib64/libc.so";
+    uint32_t offset, size;
+    uint32_t localTextCRC32 = getLocalTextCRC32(localLibcPath, offset, size, true);
+
+    uint32_t mapsTextCRC32 = getMapsTextCRC32("libc.so", offset, size);
+
+    sameTextCRC32_sys = (localTextCRC32 == mapsTextCRC32);
 }

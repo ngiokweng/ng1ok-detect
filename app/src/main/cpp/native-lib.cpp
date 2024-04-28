@@ -28,13 +28,31 @@ Java_ng1ok_detect_MainActivity_checkCRC32(JNIEnv *env, jobject thiz) {
 
     std::string res;
     if(sameTextCRC32){
-        res = "CRC檢驗通過";
+        res = "[libc] text段CRC檢驗通過";
     }else{
-        res = "CRC檢驗不通過";
+        res = "[libc] text段CRC檢驗不通過";
     }
+
 
     return env->NewStringUTF(res.c_str());
 }
 
+
+extern "C"
+JNIEXPORT jstring JNICALL
+Java_ng1ok_detect_MainActivity_checkCRC32_1sys(JNIEnv *env, jobject thiz) {
+    detectCRC32WithSyscall();
+
+    std::string res;
+    if(sameTextCRC32_sys){
+        res = "[libc] text段CRC檢驗通過 (using syscall)";
+    }else{
+        res = "[libc] text段CRC檢驗通過 (using syscall)";
+    }
+
+
+    return env->NewStringUTF(res.c_str());
+
+}
 
 

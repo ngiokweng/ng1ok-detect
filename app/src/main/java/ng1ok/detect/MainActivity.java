@@ -22,18 +22,23 @@ public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
 
     private TextView tvCheckCRC32;
+    private TextView tvCheckCRC32_sys;
 
     private void initView(){
         Button btnRefresh = binding.btnRefresh;
         tvCheckCRC32 = binding.tvCheckCRC32;
-
         tvCheckCRC32.setText(checkCRC32());
+
+        tvCheckCRC32_sys = binding.tvCheckCRC32Sys;
+        tvCheckCRC32_sys.setText(checkCRC32_sys());
+
 
         btnRefresh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d(TAG, "onClick: ");
                 tvCheckCRC32.setText(checkCRC32());
+
+                tvCheckCRC32_sys.setText(checkCRC32_sys());
             }
         });
     }
@@ -55,4 +60,6 @@ public class MainActivity extends AppCompatActivity {
     public native String stringFromJNI();
 
     public native String checkCRC32();
+
+    public native String checkCRC32_sys();
 }
