@@ -2,11 +2,12 @@
 #include <string>
 #include "log.h"
 #include "detect-crc32.h"
+#include <jni.h>
 
-extern "C" JNIEXPORT jstring
 
 
-JNICALL
+extern "C"
+JNIEXPORT jstring JNICALL
 Java_ng1ok_detect_MainActivity_stringFromJNI(
         JNIEnv *env,
         jobject /* this */) {
@@ -28,9 +29,9 @@ Java_ng1ok_detect_MainActivity_checkCRC32(JNIEnv *env, jobject thiz) {
 
     std::string res;
     if(sameTextCRC32){
-        res = "[libc] text段CRC檢驗通過";
+        res = "[✔] libc.text段CRC校驗";
     }else{
-        res = "[libc] text段CRC檢驗不通過";
+        res = "[✖] libc.text段CRC校驗";
     }
 
 
@@ -40,19 +41,35 @@ Java_ng1ok_detect_MainActivity_checkCRC32(JNIEnv *env, jobject thiz) {
 
 extern "C"
 JNIEXPORT jstring JNICALL
-Java_ng1ok_detect_MainActivity_checkCRC32_1sys(JNIEnv *env, jobject thiz) {
+Java_ng1ok_detect_MainActivity_checkCRC32WithSyscall(JNIEnv *env, jobject thiz) {
     detectCRC32WithSyscall();
 
     std::string res;
     if(sameTextCRC32_sys){
-        res = "[libc] text段CRC檢驗通過 (using syscall)";
+        res = "[✔] libc.text段CRC校驗 (using syscall)";
     }else{
-        res = "[libc] text段CRC檢驗通過 (using syscall)";
+        res = "[✖] libc.text段CRC校驗 (using syscall)";
     }
 
 
     return env->NewStringUTF(res.c_str());
 
+}
+
+extern "C"
+JNIEXPORT jstring JNICALL
+Java_ng1ok_detect_MainActivity_checkCRC32WithMySyscall(JNIEnv *env, jobject thiz) {
+    detectCRC32WithMySyscall();
+
+    std::string res;
+    if(sameTextCRC32_mySys){
+        res = "[✔] libc.text段CRC校驗 (using mySyscall)";
+    }else{
+        res = "[✖] libc.text段CRC校驗 (using mySyscall)";
+    }
+
+
+    return env->NewStringUTF(res.c_str());
 }
 
 

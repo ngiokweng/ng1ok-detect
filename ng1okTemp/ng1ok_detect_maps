@@ -1,0 +1,1644 @@
+12c00000-52c00000 rw-p 00000000 00:04 18978                              /dev/ashmem/dalvik-main space (region space) (deleted)
+70998000-70bd1000 rw-p 00000000 103:13 1474596                           /data/dalvik-cache/arm64/system@framework@boot.art
+70bd1000-70c96000 rw-p 00000000 103:13 1474597                           /data/dalvik-cache/arm64/system@framework@boot-core-libart.art
+70c96000-70ce0000 rw-p 00000000 103:13 1474598                           /data/dalvik-cache/arm64/system@framework@boot-conscrypt.art
+70ce0000-70d0c000 rw-p 00000000 103:13 1474599                           /data/dalvik-cache/arm64/system@framework@boot-okhttp.art
+70d0c000-70d3d000 rw-p 00000000 103:13 1474600                           /data/dalvik-cache/arm64/system@framework@boot-bouncycastle.art
+70d3d000-70d4d000 rw-p 00000000 103:13 1474601                           /data/dalvik-cache/arm64/system@framework@boot-apache-xml.art
+70d4d000-70d52000 rw-p 00000000 103:13 1474602                           /data/dalvik-cache/arm64/system@framework@boot-legacy-test.art
+70d52000-70d7d000 rw-p 00000000 103:13 1474603                           /data/dalvik-cache/arm64/system@framework@boot-ext.art
+70d7d000-71370000 rw-p 00000000 103:13 1474604                           /data/dalvik-cache/arm64/system@framework@boot-framework.art
+71370000-713b2000 rw-p 00000000 103:13 1474605                           /data/dalvik-cache/arm64/system@framework@boot-telephony-common.art
+713b2000-713bd000 rw-p 00000000 103:13 1474606                           /data/dalvik-cache/arm64/system@framework@boot-voip-common.art
+713bd000-713c7000 rw-p 00000000 103:13 1474607                           /data/dalvik-cache/arm64/system@framework@boot-ims-common.art
+713c7000-713ed000 rw-p 00000000 103:13 1474608                           /data/dalvik-cache/arm64/system@framework@boot-org.apache.http.legacy.boot.art
+713ed000-713ef000 rw-p 00000000 103:13 1474609                           /data/dalvik-cache/arm64/system@framework@boot-android.hidl.base-V1.0-java.art
+713ef000-713f2000 rw-p 00000000 103:13 1474610                           /data/dalvik-cache/arm64/system@framework@boot-android.hidl.manager-V1.0-java.art
+713f2000-713f3000 rw-p 00000000 103:13 1474611                           /data/dalvik-cache/arm64/system@framework@boot-com.google.vr.platform.art
+713f3000-715cd000 r--p 00000000 103:12 1731                              /system/framework/arm64/boot.oat
+715cd000-71c06000 r-xp 001da000 103:12 1731                              /system/framework/arm64/boot.oat
+71c06000-71c08000 rw-p 00000000 00:00 0                                  [anon:.bss]
+71c08000-71c09000 r--p 00813000 103:12 1731                              /system/framework/arm64/boot.oat
+71c09000-71c0a000 rw-p 00814000 103:12 1731                              /system/framework/arm64/boot.oat
+71c0a000-71cdf000 r--p 00000000 103:12 1710                              /system/framework/arm64/boot-core-libart.oat
+71cdf000-71f5c000 r-xp 000d5000 103:12 1710                              /system/framework/arm64/boot-core-libart.oat
+71f5c000-71f5e000 rw-p 00000000 00:00 0                                  [anon:.bss]
+71f5e000-71f5f000 r--p 00352000 103:12 1710                              /system/framework/arm64/boot-core-libart.oat
+71f5f000-71f60000 rw-p 00353000 103:12 1710                              /system/framework/arm64/boot-core-libart.oat
+71f60000-71f7e000 r--p 00000000 103:12 1716                              /system/framework/arm64/boot-conscrypt.oat
+71f7e000-71fd4000 r-xp 0001e000 103:12 1716                              /system/framework/arm64/boot-conscrypt.oat
+71fd4000-71fd5000 rw-p 00000000 00:00 0                                  [anon:.bss]
+71fd5000-71fd6000 r--p 00074000 103:12 1716                              /system/framework/arm64/boot-conscrypt.oat
+71fd6000-71fd7000 rw-p 00075000 103:12 1716                              /system/framework/arm64/boot-conscrypt.oat
+71fd7000-71ffd000 r--p 00000000 103:12 1733                              /system/framework/arm64/boot-okhttp.oat
+71ffd000-7206c000 r-xp 00026000 103:12 1733                              /system/framework/arm64/boot-okhttp.oat
+7206c000-7206d000 rw-p 00000000 00:00 0                                  [anon:.bss]
+7206d000-7206e000 r--p 00095000 103:12 1733                              /system/framework/arm64/boot-okhttp.oat
+7206e000-7206f000 rw-p 00096000 103:12 1733                              /system/framework/arm64/boot-okhttp.oat
+7206f000-7208c000 r--p 00000000 103:12 1736                              /system/framework/arm64/boot-bouncycastle.oat
+7208c000-720e3000 r-xp 0001d000 103:12 1736                              /system/framework/arm64/boot-bouncycastle.oat
+720e3000-720e4000 rw-p 00000000 00:00 0                                  [anon:.bss]
+720e4000-720e5000 r--p 00074000 103:12 1736                              /system/framework/arm64/boot-bouncycastle.oat
+720e5000-720e6000 rw-p 00075000 103:12 1736                              /system/framework/arm64/boot-bouncycastle.oat
+720e6000-720ec000 r--p 00000000 103:12 1728                              /system/framework/arm64/boot-apache-xml.oat
+720ec000-720ed000 r-xp 00006000 103:12 1728                              /system/framework/arm64/boot-apache-xml.oat
+720ed000-720ee000 r--p 00007000 103:12 1728                              /system/framework/arm64/boot-apache-xml.oat
+720ee000-720ef000 rw-p 00008000 103:12 1728                              /system/framework/arm64/boot-apache-xml.oat
+720ef000-720f2000 r--p 00000000 103:12 1714                              /system/framework/arm64/boot-legacy-test.oat
+720f2000-720f5000 r-xp 00003000 103:12 1714                              /system/framework/arm64/boot-legacy-test.oat
+720f5000-720f6000 rw-p 00000000 00:00 0                                  [anon:.bss]
+720f6000-720f7000 r--p 00006000 103:12 1714                              /system/framework/arm64/boot-legacy-test.oat
+720f7000-720f8000 rw-p 00007000 103:12 1714                              /system/framework/arm64/boot-legacy-test.oat
+720f8000-7210b000 r--p 00000000 103:12 1707                              /system/framework/arm64/boot-ext.oat
+7210b000-72139000 r-xp 00013000 103:12 1707                              /system/framework/arm64/boot-ext.oat
+72139000-7213a000 rw-p 00000000 00:00 0                                  [anon:.bss]
+7213a000-7213b000 r--p 00041000 103:12 1707                              /system/framework/arm64/boot-ext.oat
+7213b000-7213c000 rw-p 00042000 103:12 1707                              /system/framework/arm64/boot-ext.oat
+7213c000-7274d000 r--p 00000000 103:12 1734                              /system/framework/arm64/boot-framework.oat
+7274d000-738c7000 r-xp 00611000 103:12 1734                              /system/framework/arm64/boot-framework.oat
+738c7000-738d1000 rw-p 00000000 00:00 0                                  [anon:.bss]
+738d1000-738d2000 r--p 0178b000 103:12 1734                              /system/framework/arm64/boot-framework.oat
+738d2000-738d3000 rw-p 0178c000 103:12 1734                              /system/framework/arm64/boot-framework.oat
+738d3000-7398c000 r--p 00000000 103:12 1695                              /system/framework/arm64/boot-telephony-common.oat
+7398c000-73bb3000 r-xp 000b9000 103:12 1695                              /system/framework/arm64/boot-telephony-common.oat
+73bb3000-73bb6000 rw-p 00000000 00:00 0                                  [anon:.bss]
+73bb6000-73bb7000 r--p 002e0000 103:12 1695                              /system/framework/arm64/boot-telephony-common.oat
+73bb7000-73bb8000 rw-p 002e1000 103:12 1695                              /system/framework/arm64/boot-telephony-common.oat
+73bb8000-73bbf000 r--p 00000000 103:12 1706                              /system/framework/arm64/boot-voip-common.oat
+73bbf000-73bcc000 r-xp 00007000 103:12 1706                              /system/framework/arm64/boot-voip-common.oat
+73bcc000-73bcd000 rw-p 00000000 00:00 0                                  [anon:.bss]
+73bcd000-73bce000 r--p 00014000 103:12 1706                              /system/framework/arm64/boot-voip-common.oat
+73bce000-73bcf000 rw-p 00015000 103:12 1706                              /system/framework/arm64/boot-voip-common.oat
+73bcf000-73bd7000 r--p 00000000 103:12 1722                              /system/framework/arm64/boot-ims-common.oat
+73bd7000-73be8000 r-xp 00008000 103:12 1722                              /system/framework/arm64/boot-ims-common.oat
+73be8000-73be9000 rw-p 00000000 00:00 0                                  [anon:.bss]
+73be9000-73bea000 r--p 00019000 103:12 1722                              /system/framework/arm64/boot-ims-common.oat
+73bea000-73beb000 rw-p 0001a000 103:12 1722                              /system/framework/arm64/boot-ims-common.oat
+73beb000-73c13000 r--p 00000000 103:12 1735                              /system/framework/arm64/boot-org.apache.http.legacy.boot.oat
+73c13000-73c85000 r-xp 00028000 103:12 1735                              /system/framework/arm64/boot-org.apache.http.legacy.boot.oat
+73c85000-73c86000 rw-p 00000000 00:00 0                                  [anon:.bss]
+73c86000-73c87000 r--p 0009a000 103:12 1735                              /system/framework/arm64/boot-org.apache.http.legacy.boot.oat
+73c87000-73c88000 rw-p 0009b000 103:12 1735                              /system/framework/arm64/boot-org.apache.http.legacy.boot.oat
+73c88000-73c8b000 r--p 00000000 103:12 1712                              /system/framework/arm64/boot-android.hidl.base-V1.0-java.oat
+73c8b000-73c8c000 r-xp 00003000 103:12 1712                              /system/framework/arm64/boot-android.hidl.base-V1.0-java.oat
+73c8c000-73c8d000 r--p 00004000 103:12 1712                              /system/framework/arm64/boot-android.hidl.base-V1.0-java.oat
+73c8d000-73c8e000 rw-p 00005000 103:12 1712                              /system/framework/arm64/boot-android.hidl.base-V1.0-java.oat
+73c8e000-73c92000 r--p 00000000 103:12 1715                              /system/framework/arm64/boot-android.hidl.manager-V1.0-java.oat
+73c92000-73c96000 r-xp 00004000 103:12 1715                              /system/framework/arm64/boot-android.hidl.manager-V1.0-java.oat
+73c96000-73c97000 rw-p 00000000 00:00 0                                  [anon:.bss]
+73c97000-73c98000 r--p 00008000 103:12 1715                              /system/framework/arm64/boot-android.hidl.manager-V1.0-java.oat
+73c98000-73c99000 rw-p 00009000 103:12 1715                              /system/framework/arm64/boot-android.hidl.manager-V1.0-java.oat
+73c99000-73c9c000 r--p 00000000 103:12 1720                              /system/framework/arm64/boot-com.google.vr.platform.oat
+73c9c000-73c9d000 r-xp 00003000 103:12 1720                              /system/framework/arm64/boot-com.google.vr.platform.oat
+73c9d000-73c9e000 r--p 00004000 103:12 1720                              /system/framework/arm64/boot-com.google.vr.platform.oat
+73c9e000-73c9f000 rw-p 00005000 103:12 1720                              /system/framework/arm64/boot-com.google.vr.platform.oat
+73c9f000-73d1b000 rw-p 00000000 00:04 18975                              /dev/ashmem/dalvik-zygote space (deleted)
+73d1b000-73d1c000 rw-p 00000000 00:04 22052                              /dev/ashmem/dalvik-non moving space (deleted)
+73d1c000-73d38000 rw-p 00001000 00:04 22052                              /dev/ashmem/dalvik-non moving space (deleted)
+73d38000-774a0000 ---p 0001d000 00:04 22052                              /dev/ashmem/dalvik-non moving space (deleted)
+774a0000-77c9f000 rw-p 03785000 00:04 22052                              /dev/ashmem/dalvik-non moving space (deleted)
+77c9f000-97c9f000 rw-p 00000000 00:04 18980                              /dev/ashmem/dalvik-free list large object space (deleted)
+97c9f000-99c9f000 rw-p 00000000 00:04 267659                             /dev/ashmem/dalvik-data-code-cache (deleted)
+99c9f000-9bc9f000 r-xp 00000000 00:04 267660                             /dev/ashmem/dalvik-jit-code-cache (deleted)
+ebad6000-ebad7000 ---p 00000000 00:04 19552                              /dev/ashmem/dalvik-Sentinel fault page (deleted)
+7ff9a3000-7ff9b3000 rw-s 00046000 00:10 14232                            /dev/kgsl-3d0
+7ff9b3000-7ff9c3000 rw-s 00045000 00:10 14232                            /dev/kgsl-3d0
+7ff9c3000-7ff9cb000 rw-s 00044000 00:10 14232                            /dev/kgsl-3d0
+7ff9cb000-7ff9cc000 rw-s 00043000 00:10 14232                            /dev/kgsl-3d0
+7ff9cc000-7ff9d0000 rw-s 00042000 00:10 14232                            /dev/kgsl-3d0
+7ff9d0000-7ff9d4000 rw-s 00041000 00:10 14232                            /dev/kgsl-3d0
+7ff9d4000-7ff9e4000 rw-s 00040000 00:10 14232                            /dev/kgsl-3d0
+7ff9e4000-7ff9f4000 rw-s 0003f000 00:10 14232                            /dev/kgsl-3d0
+7ff9f4000-7ffa04000 rw-s 0003e000 00:10 14232                            /dev/kgsl-3d0
+7ffa04000-7ffa14000 rw-s 0003d000 00:10 14232                            /dev/kgsl-3d0
+7ffa14000-7ffa24000 rw-s 0003c000 00:10 14232                            /dev/kgsl-3d0
+7ffa24000-7ffa28000 rw-s 0003b000 00:10 14232                            /dev/kgsl-3d0
+7ffa28000-7ffa2c000 rw-s 0003a000 00:10 14232                            /dev/kgsl-3d0
+7ffa2c000-7ffa30000 rw-s 00039000 00:10 14232                            /dev/kgsl-3d0
+7ffa30000-7ffa50000 rw-s 00038000 00:10 14232                            /dev/kgsl-3d0
+7ffa50000-7ffa70000 rw-s 00037000 00:10 14232                            /dev/kgsl-3d0
+7ffa71000-7ffa75000 rw-s 00047000 00:10 14232                            /dev/kgsl-3d0
+7ffa75000-7ffa76000 rw-s 00035000 00:10 14232                            /dev/kgsl-3d0
+7ffa76000-7ffa78000 rw-s 00034000 00:10 14232                            /dev/kgsl-3d0
+7ffa78000-7ffa7c000 rw-s 00033000 00:10 14232                            /dev/kgsl-3d0
+7ffa7c000-7ffa7d000 rw-s 00032000 00:10 14232                            /dev/kgsl-3d0
+7ffa7d000-7ffa7e000 rw-s 00031000 00:10 14232                            /dev/kgsl-3d0
+7ffa7e000-7ffa8e000 rw-s 00030000 00:10 14232                            /dev/kgsl-3d0
+7ffa8e000-7ffa90000 rw-s 0002f000 00:10 14232                            /dev/kgsl-3d0
+7ffa90000-7ffa92000 rw-s 0002e000 00:10 14232                            /dev/kgsl-3d0
+7ffa92000-7ffa94000 rw-s 0002d000 00:10 14232                            /dev/kgsl-3d0
+7ffa94000-7ffa96000 rw-s 0002c000 00:10 14232                            /dev/kgsl-3d0
+7ffa96000-7ffa98000 rw-s 0002b000 00:10 14232                            /dev/kgsl-3d0
+7ffa98000-7ffa9a000 rw-s 0002a000 00:10 14232                            /dev/kgsl-3d0
+7ffa9a000-7ffa9c000 rw-s 00029000 00:10 14232                            /dev/kgsl-3d0
+7ffa9c000-7ffa9e000 rw-s 00028000 00:10 14232                            /dev/kgsl-3d0
+7ffa9e000-7ffaa0000 rw-s 00027000 00:10 14232                            /dev/kgsl-3d0
+7ffaa0000-7ffae0000 rw-s 00023000 00:10 14232                            /dev/kgsl-3d0
+7ffae0000-7ffb00000 rw-s 00022000 00:10 14232                            /dev/kgsl-3d0
+7ffb00000-7ffbc0000 rw-s 00021000 00:10 14232                            /dev/kgsl-3d0
+7ffbc0000-7ffbe0000 rw-s 00020000 00:10 14232                            /dev/kgsl-3d0
+7ffbe1000-7ffbe5000 rw-s 00026000 00:10 14232                            /dev/kgsl-3d0
+7ffbe5000-7ffbe9000 rw-s 00025000 00:10 14232                            /dev/kgsl-3d0
+7ffbe9000-7ffbea000 rw-s 00024000 00:10 14232                            /dev/kgsl-3d0
+7ffbea000-7ffbec000 rw-s 0001e000 00:10 14232                            /dev/kgsl-3d0
+7ffbec000-7ffbee000 rw-s 0001d000 00:10 14232                            /dev/kgsl-3d0
+7ffbee000-7ffbf0000 rw-s 0001c000 00:10 14232                            /dev/kgsl-3d0
+7ffbf0000-7ffc00000 rw-s 0001b000 00:10 14232                            /dev/kgsl-3d0
+7ffc00000-7ffdf0000 rw-s 0001a000 00:10 14232                            /dev/kgsl-3d0
+7ffdf0000-7fffd4000 rw-s 00019000 00:10 14232                            /dev/kgsl-3d0
+7fffd4000-7fffd5000 rw-s 00018000 00:10 14232                            /dev/kgsl-3d0
+7fffd5000-7fffdd000 rw-s 00017000 00:10 14232                            /dev/kgsl-3d0
+7fffdd000-7fffde000 rw-s 00016000 00:10 14232                            /dev/kgsl-3d0
+7fffde000-7fffe0000 rw-s 00015000 00:10 14232                            /dev/kgsl-3d0
+7fffe0000-7fffe1000 rw-s 00014000 00:10 14232                            /dev/kgsl-3d0
+7fffe1000-7fffe5000 rw-s 00013000 00:10 14232                            /dev/kgsl-3d0
+7fffe5000-7fffe6000 rw-s 00012000 00:10 14232                            /dev/kgsl-3d0
+7fffe6000-7fffe7000 rw-s 00011000 00:10 14232                            /dev/kgsl-3d0
+7fffe7000-7fffe8000 rw-s 00010000 00:10 14232                            /dev/kgsl-3d0
+7fffe8000-7fffe9000 rw-s 0000f000 00:10 14232                            /dev/kgsl-3d0
+7fffe9000-7fffea000 rw-s 0000e000 00:10 14232                            /dev/kgsl-3d0
+7fffea000-7fffeb000 rw-s 0000d000 00:10 14232                            /dev/kgsl-3d0
+7fffeb000-7fffec000 rw-s 0000c000 00:10 14232                            /dev/kgsl-3d0
+7fffec000-7ffff0000 rw-s 0000b000 00:10 14232                            /dev/kgsl-3d0
+7ffff0000-7ffff1000 rw-s 0000a000 00:10 14232                            /dev/kgsl-3d0
+7ffff1000-7ffff5000 rw-s 00009000 00:10 14232                            /dev/kgsl-3d0
+7ffff5000-7ffff6000 rw-s 00008000 00:10 14232                            /dev/kgsl-3d0
+7ffff6000-7ffff7000 rw-s 00007000 00:10 14232                            /dev/kgsl-3d0
+7ffff7000-7ffff8000 rw-s 00006000 00:10 14232                            /dev/kgsl-3d0
+7ffff8000-7ffff9000 rw-s 00005000 00:10 14232                            /dev/kgsl-3d0
+7ffff9000-7ffffa000 rw-s 00004000 00:10 14232                            /dev/kgsl-3d0
+7ffffa000-7ffffb000 rw-s 00003000 00:10 14232                            /dev/kgsl-3d0
+7ffffb000-7ffffc000 rw-s 00002000 00:10 14232                            /dev/kgsl-3d0
+7ffffc000-800000000 rw-s 00001000 00:10 14232                            /dev/kgsl-3d0
+61e11ce000-61e11d3000 r-xp 00000000 103:12 2207                          /system/bin/app_process64
+61e11d3000-61e11d4000 r--p 00004000 103:12 2207                          /system/bin/app_process64
+61e11d4000-61e11d5000 rw-p 00005000 103:12 2207                          /system/bin/app_process64
+61e11d5000-61e11d6000 rw-p 00000000 00:00 0 
+786ee6d000-786f8b4000 r--s 00000000 103:13 483970                        /data/data/com.google.android.gms/files/fonts/opentype/Noto_Color_Emoji_Compat-400-100_0-0_0.ttf
+786f8b4000-78702fb000 r--s 00000000 103:13 483970                        /data/data/com.google.android.gms/files/fonts/opentype/Noto_Color_Emoji_Compat-400-100_0-0_0.ttf
+7870400000-7870600000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+7870709000-787070a000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+787070a000-787070b000 ---p 00000000 00:00 0 
+787070b000-7870806000 rw-p 00000000 00:00 0                              [stack:23634]
+7870806000-7870807000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+7870807000-7870808000 ---p 00000000 00:00 0 
+7870808000-7870903000 rw-p 00000000 00:00 0                              [stack:23633]
+7870903000-7870904000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+7870904000-7870a00000 rw-p 00000000 00:00 0                              [stack:23632]
+7870a00000-7871400000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+787144e000-787154c000 r--p 00000000 00:10 5503                           /dev/hwbinder
+787154c000-787154d000 r-xp 00000000 fd:00 119                            /vendor/lib64/libqdMetaData.so
+787154d000-787154e000 ---p 00000000 00:00 0 
+787154e000-787154f000 r--p 00001000 fd:00 119                            /vendor/lib64/libqdMetaData.so
+787154f000-7871550000 rw-p 00002000 fd:00 119                            /vendor/lib64/libqdMetaData.so
+7871595000-78715a6000 r-xp 00000000 fd:00 228                            /vendor/lib64/hw/gralloc.msm8996.so
+78715a6000-78715a7000 r--p 00010000 fd:00 228                            /vendor/lib64/hw/gralloc.msm8996.so
+78715a7000-78715a8000 rw-p 00011000 fd:00 228                            /vendor/lib64/hw/gralloc.msm8996.so
+78715e6000-787162f000 r-xp 00000000 103:13 1204307                       /data/app/ng1ok.detect-sKPYsuLwJaL4jd3My7HfNw==/lib/arm64/libdetect.so
+787162f000-7871633000 r--p 00048000 103:13 1204307                       /data/app/ng1ok.detect-sKPYsuLwJaL4jd3My7HfNw==/lib/arm64/libdetect.so
+7871633000-7871634000 rw-p 0004b000 103:13 1204307                       /data/app/ng1ok.detect-sKPYsuLwJaL4jd3My7HfNw==/lib/arm64/libdetect.so
+7871634000-7871635000 rw-p 00000000 00:00 0                              [anon:.bss]
+7871671000-7871672000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+7871672000-7871673000 ---p 00000000 00:00 0 
+7871673000-787176e000 rw-p 00000000 00:00 0                              [stack:23631]
+787176e000-7871860000 r--s 0059c000 103:13 1204304                       /data/app/ng1ok.detect-sKPYsuLwJaL4jd3My7HfNw==/base.apk
+7871860000-7871861000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+7871861000-7871862000 ---p 00000000 00:00 0 
+7871862000-787195d000 rw-p 00000000 00:00 0                              [stack:23627]
+787195d000-7872344000 r--s 00000000 103:13 1204723                       /data/app/ng1ok.detect-sKPYsuLwJaL4jd3My7HfNw==/oat/arm64/base.vdex
+7872344000-7872345000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+7872345000-7872346000 ---p 00000000 00:00 0 
+7872346000-7872441000 rw-p 00000000 00:00 0                              [stack:23626]
+7872441000-7872442000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+7872442000-7872443000 ---p 00000000 00:00 0 
+7872443000-787253e000 rw-p 00000000 00:00 0                              [stack:23625]
+787253e000-787253f000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+787253f000-7872540000 ---p 00000000 00:00 0 
+7872540000-787263b000 rw-p 00000000 00:00 0                              [stack:23624]
+787263b000-787263c000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+787263c000-787263d000 ---p 00000000 00:00 0 
+787263d000-7872740000 rw-p 00000000 00:00 0                              [stack:23623]
+7872740000-7872741000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+7872741000-7872742000 ---p 00000000 00:00 0 
+7872742000-7872845000 rw-p 00000000 00:00 0                              [stack:23622]
+7872845000-7872846000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+7872846000-7872847000 ---p 00000000 00:00 0 
+7872847000-7872942000 rw-p 00000000 00:00 0                              [stack:23607]
+7872942000-7872943000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+7872943000-7872944000 ---p 00000000 00:00 0 
+7872944000-7872a3f000 rw-p 00000000 00:00 0                              [stack:23606]
+7872a3f000-7872a40000 ---p 00000000 00:04 267661                         /dev/ashmem/dalvik-Jit thread pool worker thread 0 (deleted)
+7872a40000-7872a41000 ---p 00001000 00:04 267661                         /dev/ashmem/dalvik-Jit thread pool worker thread 0 (deleted)
+7872a41000-7872b40000 rw-p 00002000 00:04 267661                         /dev/ashmem/dalvik-Jit thread pool worker thread 0 (deleted)
+7872b73000-7872b74000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+7872b74000-7872b75000 ---p 00000000 00:00 0 
+7872b75000-7872c78000 rw-p 00000000 00:00 0                              [stack:23621]
+7872c78000-7872d74000 r-xp 00000000 00:04 15202                          /memfd:jit-cache (deleted)
+7872d74000-7872d76000 r--p 000fb000 00:04 15202                          /memfd:jit-cache (deleted)
+7872d76000-7872d7b000 rw-p 000fc000 00:04 15202                          /memfd:jit-cache (deleted)
+7872d89000-78799e6000 ---p 00000000 00:00 0 
+78799e6000-78799e8000 r-xp 00000000 103:12 211                           /system/lib64/libwebviewchromium_loader.so
+78799e8000-78799e9000 r--p 00001000 103:12 211                           /system/lib64/libwebviewchromium_loader.so
+78799e9000-78799ea000 rw-p 00002000 103:12 211                           /system/lib64/libwebviewchromium_loader.so
+7879a2f000-7879a4f000 r-xp 00000000 103:12 112                           /system/lib64/libcompiler_rt.so
+7879a4f000-7879a50000 r--p 0001f000 103:12 112                           /system/lib64/libcompiler_rt.so
+7879a50000-7879a51000 rw-p 00020000 103:12 112                           /system/lib64/libcompiler_rt.so
+7879a51000-7879abe000 rw-p 00000000 00:00 0                              [anon:.bss]
+7879ade000-7879aee000 r-xp 00000000 fd:00 42                             /vendor/lib64/egl/eglSubDriverAndroid.so
+7879aee000-7879aef000 r--p 0000f000 fd:00 42                             /vendor/lib64/egl/eglSubDriverAndroid.so
+7879aef000-7879af0000 rw-p 00010000 fd:00 42                             /vendor/lib64/egl/eglSubDriverAndroid.so
+7879b01000-7879b32000 r-xp 00000000 fd:00 45                             /vendor/lib64/egl/libGLESv1_CM_adreno.so
+7879b32000-7879b33000 r--p 00030000 fd:00 45                             /vendor/lib64/egl/libGLESv1_CM_adreno.so
+7879b33000-7879b34000 rw-p 00031000 fd:00 45                             /vendor/lib64/egl/libGLESv1_CM_adreno.so
+7879b4f000-7879f07000 r-xp 00000000 fd:00 43                             /vendor/lib64/egl/libGLESv2_adreno.so
+7879f07000-7879f08000 ---p 00000000 00:00 0 
+7879f08000-7879f11000 r--p 003b8000 fd:00 43                             /vendor/lib64/egl/libGLESv2_adreno.so
+7879f11000-7879f22000 rw-p 003c1000 fd:00 43                             /vendor/lib64/egl/libGLESv2_adreno.so
+7879f22000-7879f24000 rw-p 00000000 00:00 0                              [anon:.bss]
+7879f48000-787ac55000 r-xp 00000000 fd:00 63                             /vendor/lib64/libllvm-glnext.so
+787ac55000-787ac56000 ---p 00000000 00:00 0 
+787ac56000-787ac8e000 r--p 00d0d000 fd:00 63                             /vendor/lib64/libllvm-glnext.so
+787ac8e000-787ac93000 rw-p 00d45000 fd:00 63                             /vendor/lib64/libllvm-glnext.so
+787ac93000-787acaf000 rw-p 00000000 00:00 0                              [anon:.bss]
+787ace4000-787adf5000 r-xp 00000000 fd:00 124                            /vendor/lib64/libgsl.so
+787adf5000-787adf6000 r--p 00110000 fd:00 124                            /vendor/lib64/libgsl.so
+787adf6000-787adf7000 rw-p 00111000 fd:00 124                            /vendor/lib64/libgsl.so
+787adf7000-787adf8000 rw-p 00000000 00:00 0                              [anon:.bss]
+787ae3b000-787c430000 r--s 00711000 103:12 1669                          /system/framework/framework-res.apk
+787c430000-787d600000 r--s 00000000 103:12 1921                          /system/fonts/NotoSansCJK-Regular.ttc
+787d600000-787d800000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+787d861000-787d869000 r-xp 00000000 fd:00 143                            /vendor/lib64/libadreno_utils.so
+787d869000-787d86a000 r--p 00007000 fd:00 143                            /vendor/lib64/libadreno_utils.so
+787d86a000-787d86b000 rw-p 00008000 fd:00 143                            /vendor/lib64/libadreno_utils.so
+787d86b000-787d86d000 rw-p 00000000 00:00 0                              [anon:.bss]
+787d890000-787d8a8000 r-xp 00000000 fd:00 44                             /vendor/lib64/egl/libEGL_adreno.so
+787d8a8000-787d8a9000 r--p 00017000 fd:00 44                             /vendor/lib64/egl/libEGL_adreno.so
+787d8a9000-787d8aa000 rw-p 00018000 fd:00 44                             /vendor/lib64/egl/libEGL_adreno.so
+787d8aa000-787d8ac000 rw-p 00000000 00:00 0                              [anon:.bss]
+787d8c3000-787d91f000 r-xp 00000000 103:12 219                           /system/lib64/vndk-sp/libhidltransport.so
+787d91f000-787d927000 r--p 0005b000 103:12 219                           /system/lib64/vndk-sp/libhidltransport.so
+787d927000-787d928000 rw-p 00063000 103:12 219                           /system/lib64/vndk-sp/libhidltransport.so
+787d942000-787d965000 r-xp 00000000 103:12 215                           /system/lib64/vndk-sp/liblzma.so
+787d965000-787d966000 r--p 00022000 103:12 215                           /system/lib64/vndk-sp/liblzma.so
+787d966000-787d967000 rw-p 00023000 103:12 215                           /system/lib64/vndk-sp/liblzma.so
+787d967000-787d96d000 rw-p 00000000 00:00 0                              [anon:.bss]
+787d982000-787d98e000 r-xp 00000000 103:12 223                           /system/lib64/vndk-sp/libhidlbase.so
+787d98e000-787d98f000 ---p 00000000 00:00 0 
+787d98f000-787d990000 r--p 0000c000 103:12 223                           /system/lib64/vndk-sp/libhidlbase.so
+787d990000-787d991000 rw-p 0000d000 103:12 223                           /system/lib64/vndk-sp/libhidlbase.so
+787d9d6000-787d9de000 r-xp 00000000 fd:00 237                            /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so
+787d9de000-787d9e0000 r--p 00007000 fd:00 237                            /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so
+787d9e0000-787d9e1000 rw-p 00009000 fd:00 237                            /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so
+787da0f000-787da29000 r-xp 00000000 103:12 233                           /system/lib64/vndk-sp/android.hardware.graphics.mapper@2.0.so
+787da29000-787da2c000 r--p 00019000 103:12 233                           /system/lib64/vndk-sp/android.hardware.graphics.mapper@2.0.so
+787da2c000-787da2d000 rw-p 0001c000 103:12 233                           /system/lib64/vndk-sp/android.hardware.graphics.mapper@2.0.so
+787da54000-787da6e000 r-xp 00000000 103:12 236                           /system/lib64/vndk-sp/libbacktrace.so
+787da6e000-787da6f000 ---p 00000000 00:00 0 
+787da6f000-787da70000 r--p 0001a000 103:12 236                           /system/lib64/vndk-sp/libbacktrace.so
+787da70000-787da71000 rw-p 0001b000 103:12 236                           /system/lib64/vndk-sp/libbacktrace.so
+787daae000-787dab8000 r-xp 00000000 103:12 230                           /system/lib64/vndk-sp/android.hardware.graphics.common@1.0.so
+787dab8000-787dab9000 r--p 00009000 103:12 230                           /system/lib64/vndk-sp/android.hardware.graphics.common@1.0.so
+787dab9000-787daba000 rw-p 0000a000 103:12 230                           /system/lib64/vndk-sp/android.hardware.graphics.common@1.0.so
+787dadf000-787daef000 r-xp 00000000 103:12 229                           /system/lib64/vndk-sp/libcutils.so
+787daef000-787daf0000 ---p 00000000 00:00 0 
+787daf0000-787daf2000 r--p 00010000 103:12 229                           /system/lib64/vndk-sp/libcutils.so
+787daf2000-787daf3000 rw-p 00012000 103:12 229                           /system/lib64/vndk-sp/libcutils.so
+787db19000-787db29000 r-xp 00000000 103:12 225                           /system/lib64/vndk-sp/libbase.so
+787db29000-787db2a000 r--p 0000f000 103:12 225                           /system/lib64/vndk-sp/libbase.so
+787db2a000-787db2b000 rw-p 00010000 103:12 225                           /system/lib64/vndk-sp/libbase.so
+787db4d000-787dc30000 r-xp 00000000 103:12 220                           /system/lib64/vndk-sp/libc++.so
+787dc30000-787dc31000 ---p 00000000 00:00 0 
+787dc31000-787dc39000 r--p 000e3000 103:12 220                           /system/lib64/vndk-sp/libc++.so
+787dc39000-787dc3a000 rw-p 000eb000 103:12 220                           /system/lib64/vndk-sp/libc++.so
+787dc3a000-787dc3d000 rw-p 00000000 00:00 0                              [anon:.bss]
+787dc73000-787dc75000 r-xp 00000000 103:12 222                           /system/lib64/vndk-sp/libhardware.so
+787dc75000-787dc76000 r--p 00001000 103:12 222                           /system/lib64/vndk-sp/libhardware.so
+787dc76000-787dc77000 rw-p 00002000 103:12 222                           /system/lib64/vndk-sp/libhardware.so
+787dc8b000-787dca4000 r-xp 00000000 103:12 234                           /system/lib64/vndk-sp/libunwind.so
+787dca4000-787dca5000 ---p 00000000 00:00 0 
+787dca5000-787dca6000 r--p 00019000 103:12 234                           /system/lib64/vndk-sp/libunwind.so
+787dca6000-787dca7000 rw-p 0001a000 103:12 234                           /system/lib64/vndk-sp/libunwind.so
+787dca7000-787dd10000 rw-p 00000000 00:00 0                              [anon:.bss]
+787dd48000-787dd65000 r-xp 00000000 103:12 226                           /system/lib64/vndk-sp/libutils.so
+787dd65000-787dd66000 ---p 00000000 00:00 0 
+787dd66000-787dd67000 r--p 0001d000 103:12 226                           /system/lib64/vndk-sp/libutils.so
+787dd67000-787dd68000 rw-p 0001e000 103:12 226                           /system/lib64/vndk-sp/libutils.so
+787dd89000-787ddad000 r-xp 00000000 103:12 227                           /system/lib64/vndk-sp/libhwbinder.so
+787ddad000-787ddae000 ---p 00000000 00:00 0 
+787ddae000-787ddb0000 r--p 00024000 103:12 227                           /system/lib64/vndk-sp/libhwbinder.so
+787ddb0000-787ddb1000 rw-p 00026000 103:12 227                           /system/lib64/vndk-sp/libhwbinder.so
+787ddc6000-787de41000 r--s 00000000 103:12 788                           /system/usr/share/zoneinfo/tzdata
+787de41000-787de79000 r-xp 00000000 103:12 399                           /system/lib64/libjavacrypto.so
+787de79000-787de7b000 r--p 00037000 103:12 399                           /system/lib64/libjavacrypto.so
+787de7b000-787de7d000 rw-p 00039000 103:12 399                           /system/lib64/libjavacrypto.so
+787de8e000-787de99000 r-xp 00000000 103:12 105                           /system/lib64/libsoundpool.so
+787de99000-787de9a000 ---p 00000000 00:00 0 
+787de9a000-787de9b000 r--p 0000b000 103:12 105                           /system/lib64/libsoundpool.so
+787de9b000-787de9c000 rw-p 0000c000 103:12 105                           /system/lib64/libsoundpool.so
+787dea2000-787def0000 r--s 00000000 103:12 952                           /system/usr/hyphen-data/hyph-hu.hyb
+787def0000-787df41000 r--s 00000000 103:12 1965                          /system/fonts/RobotoCondensed-BoldItalic.ttf
+787df41000-787df8c000 r--s 00000000 103:12 1838                          /system/fonts/RobotoCondensed-Bold.ttf
+787df8c000-787dfdd000 r--s 00000000 103:12 1946                          /system/fonts/RobotoCondensed-MediumItalic.ttf
+787dfdd000-787e028000 r--s 00000000 103:12 1951                          /system/fonts/RobotoCondensed-Medium.ttf
+787e028000-787e079000 r--s 00000000 103:12 1856                          /system/fonts/RobotoCondensed-Italic.ttf
+787e079000-787e0c3000 r--s 00000000 103:12 1892                          /system/fonts/RobotoCondensed-Regular.ttf
+787e0c3000-787e115000 r--s 00000000 103:12 1879                          /system/fonts/RobotoCondensed-LightItalic.ttf
+787e115000-787e807000 r--s 00000000 103:12 1939                          /system/fonts/NotoColorEmoji.ttf
+787e807000-787e8b5000 r--s 00000000 103:12 1979                          /system/fonts/NotoSansSymbols-Regular-Subsetted.ttf
+787e8b5000-787e911000 r--s 00000000 103:12 1993                          /system/fonts/NotoSansTibetan-Bold.ttf
+787e911000-787e974000 r--s 00000000 103:12 1917                          /system/fonts/NotoSansTibetan-Regular.ttf
+787e974000-787e9f0000 r--s 00000000 103:12 1947                          /system/fonts/NotoSansEgyptianHieroglyphs-Regular.ttf
+787e9f0000-787ea6b000 r--s 00000000 103:12 1876                          /system/fonts/NotoSansCuneiform-Regular.ttf
+787ea6b000-787eabd000 r--s 00000000 103:12 1865                          /system/fonts/Roboto-BoldItalic.ttf
+787eabd000-78800fb000 r--s 00000000 103:12 794                           /system/usr/icu/icudt58l.dat
+78800fb000-78800fc000 ---p 00000000 00:00 0                              [anon:thread stack guard page]
+78800fc000-78800fd000 ---p 00000000 00:00 0 
+78800fd000-7880200000 rw-p 00000000 00:00 0                              [stack:23620]
+7880200000-7880400000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+7880417000-7880468000 r--s 00000000 103:12 1828                          /system/fonts/Roboto-BlackItalic.ttf
+7880468000-78804b9000 r--s 00000000 103:12 1924                          /system/fonts/Roboto-MediumItalic.ttf
+78804cc000-78805ca000 r--p 00000000 00:10 15459                          /dev/binder
+78805ca000-78806c9000 rw-p 00000000 00:04 22054                          /dev/ashmem/dalvik-allocspace non moving space mark-bitmap 1 (deleted)
+78806c9000-78807c8000 rw-p 00000000 00:04 22053                          /dev/ashmem/dalvik-allocspace non moving space live-bitmap 1 (deleted)
+78807c8000-78807fc000 r-xp 00000000 103:12 116                           /system/lib64/libart-dexlayout.so
+78807fc000-78807fd000 ---p 00000000 00:00 0 
+78807fd000-78807fe000 r--p 00034000 103:12 116                           /system/lib64/libart-dexlayout.so
+78807fe000-78807ff000 rw-p 00035000 103:12 116                           /system/lib64/libart-dexlayout.so
+7880803000-78808e1000 r-xp 00000000 103:12 91                            /system/lib64/libvixl-arm64.so
+78808e1000-78808e6000 r--p 000dd000 103:12 91                            /system/lib64/libvixl-arm64.so
+78808e6000-78808e7000 rw-p 000e2000 103:12 91                            /system/lib64/libvixl-arm64.so
+78808e7000-78808ee000 rw-p 00000000 00:00 0                              [anon:.bss]
+7880905000-7880a23000 r-xp 00000000 103:12 135                           /system/lib64/libvixl-arm.so
+7880a23000-7880a24000 ---p 00000000 00:00 0 
+7880a24000-7880a28000 r--p 0011e000 103:12 135                           /system/lib64/libvixl-arm.so
+7880a28000-7880a29000 rw-p 00122000 103:12 135                           /system/lib64/libvixl-arm.so
+7880a45000-7880cff000 r-xp 00000000 103:12 292                           /system/lib64/libart-compiler.so
+7880cff000-7880d00000 ---p 00000000 00:00 0 
+7880d00000-7880d15000 r--p 002ba000 103:12 292                           /system/lib64/libart-compiler.so
+7880d15000-7880d16000 rw-p 002cf000 103:12 292                           /system/lib64/libart-compiler.so
+7880d16000-7880d1d000 rw-p 00000000 00:00 0                              [anon:.bss]
+7880d44000-7880d7c000 r-xp 00000000 103:12 205                           /system/lib64/libopenjdk.so
+7880d7c000-7880d7e000 r--p 00037000 103:12 205                           /system/lib64/libopenjdk.so
+7880d7e000-7880d80000 rw-p 00039000 103:12 205                           /system/lib64/libopenjdk.so
+7880d92000-7880dd5000 r-xp 00000000 103:12 140                           /system/lib64/libssl.so
+7880dd5000-7880dd8000 r--p 00042000 103:12 140                           /system/lib64/libssl.so
+7880dd8000-7880dd9000 rw-p 00045000 103:12 140                           /system/lib64/libssl.so
+7880e0e000-7880e16000 r-xp 00000000 103:12 199                           /system/lib64/libopenjdkjvm.so
+7880e16000-7880e17000 r--p 00007000 103:12 199                           /system/lib64/libopenjdkjvm.so
+7880e17000-7880e18000 rw-p 00008000 103:12 199                           /system/lib64/libopenjdkjvm.so
+7880e1e000-7880e6f000 r--s 00000000 103:12 1963                          /system/fonts/Roboto-Italic.ttf
+7880e6f000-78824ad000 r--s 00000000 103:12 794                           /system/usr/icu/icudt58l.dat
+78824ad000-78824f2000 r-xp 00000000 103:12 309                           /system/lib64/libjavacore.so
+78824f2000-78824f4000 r--p 00044000 103:12 309                           /system/lib64/libjavacore.so
+78824f4000-78824f6000 rw-p 00046000 103:12 309                           /system/lib64/libjavacore.so
+78824f6000-78824f7000 rw-p 00000000 00:00 0                              [anon:.bss]
+788252f000-7882532000 r-xp 00000000 103:12 257                           /system/lib64/libwebviewchromium_plat_support.so
+7882532000-7882533000 r--p 00002000 103:12 257                           /system/lib64/libwebviewchromium_plat_support.so
+7882533000-7882534000 rw-p 00003000 103:12 257                           /system/lib64/libwebviewchromium_plat_support.so
+788255b000-78825b3000 r-xp 00000000 103:12 371                           /system/lib64/android.hardware.renderscript@1.0.so
+78825b3000-78825b4000 ---p 00000000 00:00 0 
+78825b4000-78825b9000 r--p 00058000 103:12 371                           /system/lib64/android.hardware.renderscript@1.0.so
+78825b9000-78825ba000 rw-p 0005d000 103:12 371                           /system/lib64/android.hardware.renderscript@1.0.so
+78825c4000-78825d5000 r-xp 00000000 103:12 129                           /system/lib64/libRS.so
+78825d5000-78825d6000 ---p 00000000 00:00 0 
+78825d6000-78825d7000 r--p 00011000 103:12 129                           /system/lib64/libRS.so
+78825d7000-78825d8000 rw-p 00012000 103:12 129                           /system/lib64/libRS.so
+7882619000-788261b000 r-xp 00000000 103:12 148                           /system/lib64/libOpenSLES.so
+788261b000-788261c000 ---p 00000000 00:00 0 
+788261c000-788261d000 r--p 00002000 103:12 148                           /system/lib64/libOpenSLES.so
+788261d000-788261e000 rw-p 00003000 103:12 148                           /system/lib64/libOpenSLES.so
+7882663000-7882665000 r-xp 00000000 103:12 195                           /system/lib64/libOpenMAXAL.so
+7882665000-7882666000 r--p 00001000 103:12 195                           /system/lib64/libOpenMAXAL.so
+7882666000-7882667000 rw-p 00002000 103:12 195                           /system/lib64/libOpenMAXAL.so
+7882691000-7882694000 r-xp 00000000 103:12 262                           /system/lib64/libtextclassifier_hash.so
+7882694000-7882695000 r--p 00002000 103:12 262                           /system/lib64/libtextclassifier_hash.so
+7882695000-7882696000 rw-p 00003000 103:12 262                           /system/lib64/libtextclassifier_hash.so
+78826d9000-7882770000 r-xp 00000000 103:12 82                            /system/lib64/libneuralnetworks.so
+7882770000-7882773000 r--p 00096000 103:12 82                            /system/lib64/libneuralnetworks.so
+7882773000-7882774000 rw-p 00099000 103:12 82                            /system/lib64/libneuralnetworks.so
+7882774000-78828fc000 rw-p 00000000 00:00 0                              [anon:.bss]
+7882939000-7882976000 r-xp 00000000 103:12 299                           /system/lib64/android.hardware.neuralnetworks@1.0.so
+7882976000-788297c000 r--p 0003c000 103:12 299                           /system/lib64/android.hardware.neuralnetworks@1.0.so
+788297c000-788297d000 rw-p 00042000 103:12 299                           /system/lib64/android.hardware.neuralnetworks@1.0.so
+7882992000-7882993000 r-xp 00000000 103:12 388                           /system/lib64/libjnigraphics.so
+7882993000-7882994000 r--p 00000000 103:12 388                           /system/lib64/libjnigraphics.so
+7882994000-7882995000 rw-p 00001000 103:12 388                           /system/lib64/libjnigraphics.so
+7882997000-78829b7000 rw-p 00000000 00:04 266427                         /dev/ashmem/dalvik-LinearAlloc (deleted)
+78829b7000-78829d7000 rw-p 00000000 00:04 266426                         /dev/ashmem/dalvik-LinearAlloc (deleted)
+78829d7000-78829ec000 r-xp 00000000 103:12 169                           /system/lib64/libGLESv3.so
+78829ec000-78829ed000 r--p 00014000 103:12 169                           /system/lib64/libGLESv3.so
+78829ed000-78829ee000 rw-p 00015000 103:12 169                           /system/lib64/libGLESv3.so
+7882a0c000-7882a2c000 rw-p 00000000 00:04 266425                         /dev/ashmem/dalvik-LinearAlloc (deleted)
+7882a2c000-7882a3b000 r-xp 00000000 103:12 206                           /system/lib64/libmidi.so
+7882a3b000-7882a3d000 r--p 0000e000 103:12 206                           /system/lib64/libmidi.so
+7882a3d000-7882a3e000 rw-p 00010000 103:12 206                           /system/lib64/libmidi.so
+7882a50000-7882a6b000 r-xp 00000000 103:12 373                           /system/lib64/libcamera2ndk.so
+7882a6b000-7882a6c000 ---p 00000000 00:00 0 
+7882a6c000-7882a6e000 r--p 0001b000 103:12 373                           /system/lib64/libcamera2ndk.so
+7882a6e000-7882a6f000 rw-p 0001d000 103:12 373                           /system/lib64/libcamera2ndk.so
+7882a73000-7882a93000 r--s 00000000 00:10 5391                           /dev/__properties__/u:object_r:hwservicemanager_prop:s0
+7882a93000-7882af6000 r-xp 00000000 103:12 150                           /system/lib64/libmedia_jni.so
+7882af6000-7882afd000 r--p 00062000 103:12 150                           /system/lib64/libmedia_jni.so
+7882afd000-7882afe000 rw-p 00069000 103:12 150                           /system/lib64/libmedia_jni.so
+7882b04000-7882b29000 r-xp 00000000 103:12 342                           /system/lib64/libexif.so
+7882b29000-7882b2a000 ---p 00000000 00:00 0 
+7882b2a000-7882b3d000 r--p 00025000 103:12 342                           /system/lib64/libexif.so
+7882b3d000-7882b3e000 rw-p 00038000 103:12 342                           /system/lib64/libexif.so
+7882b4d000-7882b75000 r-xp 00000000 103:12 375                           /system/lib64/libmtp.so
+7882b75000-7882b78000 r--p 00027000 103:12 375                           /system/lib64/libmtp.so
+7882b78000-7882b79000 rw-p 0002a000 103:12 375                           /system/lib64/libmtp.so
+7882b96000-7882baf000 r-xp 00000000 103:12 157                           /system/lib64/libmediandk.so
+7882baf000-7882bb1000 r--p 00018000 103:12 157                           /system/lib64/libmediandk.so
+7882bb1000-7882bb2000 rw-p 0001a000 103:12 157                           /system/lib64/libmediandk.so
+7882bc5000-7882bee000 r-xp 00000000 103:12 287                           /system/lib64/libaaudio.so
+7882bee000-7882bef000 ---p 00000000 00:00 0 
+7882bef000-7882bf4000 r--p 00029000 103:12 287                           /system/lib64/libaaudio.so
+7882bf4000-7882bf5000 rw-p 0002e000 103:12 287                           /system/lib64/libaaudio.so
+7882bfc000-7882c1c000 rw-p 00000000 00:04 266412                         /dev/ashmem/dalvik-LinearAlloc (deleted)
+7882c1c000-7882c35000 r-xp 00000000 103:12 369                           /system/lib64/libandroid.so
+7882c35000-7882c36000 ---p 00000000 00:00 0 
+7882c36000-7882c39000 r--p 00019000 103:12 369                           /system/lib64/libandroid.so
+7882c39000-7882c3a000 rw-p 0001c000 103:12 369                           /system/lib64/libandroid.so
+7882c45000-7882c65000 rw-p 00000000 00:04 266411                         /dev/ashmem/dalvik-CompilerMetadata (deleted)
+7882c65000-7882c85000 rw-p 00000000 00:04 267705                         /dev/ashmem/dalvik-CompilerMetadata (deleted)
+7882c85000-7882ca4000 r--p 00000000 103:13 1204310                       /data/app/ng1ok.detect-sKPYsuLwJaL4jd3My7HfNw==/oat/arm64/base.odex
+7882ca4000-7882ca5000 r-xp 0001f000 103:13 1204310                       /data/app/ng1ok.detect-sKPYsuLwJaL4jd3My7HfNw==/oat/arm64/base.odex
+7882ca5000-7882cbc000 rw-p 00000000 00:00 0                              [anon:.bss]
+7882cbc000-7882cbd000 r--p 00020000 103:13 1204310                       /data/app/ng1ok.detect-sKPYsuLwJaL4jd3My7HfNw==/oat/arm64/base.odex
+7882cbd000-7882cbe000 rw-p 00021000 103:13 1204310                       /data/app/ng1ok.detect-sKPYsuLwJaL4jd3My7HfNw==/oat/arm64/base.odex
+7882cce000-7882d96000 rw-p 00000000 00:04 19247                          /dev/ashmem/dalvik-indirect ref table (deleted)
+7882d96000-7882e5e000 rw-p 00000000 00:04 19246                          /dev/ashmem/dalvik-indirect ref table (deleted)
+7882e5e000-788305e000 rw-p 00000000 00:04 18989                          /dev/ashmem/dalvik-rb copying gc mark stack (deleted)
+788305e000-788385e000 rw-p 00000000 00:04 18988                          /dev/ashmem/dalvik-concurrent copying gc mark stack (deleted)
+788385e000-788405f000 rw-p 00000000 00:04 18987                          /dev/ashmem/dalvik-live stack (deleted)
+788405f000-7884860000 rw-p 00000000 00:04 18986                          /dev/ashmem/dalvik-allocation stack (deleted)
+7884860000-7884c61000 rw-p 00000000 00:04 18984                          /dev/ashmem/dalvik-card table (deleted)
+7884c61000-7884d61000 rw-p 00000000 00:04 18983                          /dev/ashmem/dalvik-large object free list space allocation info map (deleted)
+7884d61000-7885d61000 rw-p 00000000 00:04 18979                          /dev/ashmem/dalvik-region space live bitmap (deleted)
+7885d61000-7885e61000 rw-p 00000000 00:04 18977                          /dev/ashmem/dalvik-allocspace zygote / non moving space mark-bitmap 0 (deleted)
+7885e61000-7885f61000 rw-p 00000000 00:04 18976                          /dev/ashmem/dalvik-allocspace zygote / non moving space live-bitmap 0 (deleted)
+7885f61000-7885fdf000 r--s 00000000 103:12 1705                          /system/framework/arm64/boot-org.apache.http.legacy.boot.vdex
+7885fdf000-788626a000 r--s 00000000 103:12 1718                          /system/framework/arm64/boot-telephony-common.vdex
+788626a000-7887546000 r--s 00000000 103:12 1721                          /system/framework/arm64/boot-framework.vdex
+7887546000-7887691000 r--s 00000000 103:12 1701                          /system/framework/arm64/boot-apache-xml.vdex
+7887691000-78877f3000 r--s 00000000 103:12 1694                          /system/framework/arm64/boot-bouncycastle.vdex
+78877f3000-7887aed000 r--s 00000000 103:12 1723                          /system/framework/arm64/boot-core-libart.vdex
+7887aed000-7887fe1000 r--s 00000000 103:12 1700                          /system/framework/arm64/boot.vdex
+7887fe1000-78885e1000 r-xp 00000000 103:12 430                           /system/lib64/libart.so
+78885e1000-78885f1000 r--p 005ff000 103:12 430                           /system/lib64/libart.so
+78885f1000-78885f4000 rw-p 0060f000 103:12 430                           /system/lib64/libart.so
+78885f4000-78885f7000 rw-p 00000000 00:00 0                              [anon:.bss]
+7888600000-7888a00000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+7888a16000-7888b1a000 r--s 00000000 103:12 1732                          /system/framework/arm64/boot-ext.vdex
+7888b1a000-7888b1e000 r-xp 00000000 103:12 170                           /system/lib64/libtombstoned_client.so
+7888b1e000-7888b1f000 r--p 00003000 103:12 170                           /system/lib64/libtombstoned_client.so
+7888b1f000-7888b20000 rw-p 00004000 103:12 170                           /system/lib64/libtombstoned_client.so
+7888b39000-7888b59000 rw-p 00000000 00:04 267704                         /dev/ashmem/dalvik-CompilerMetadata (deleted)
+7888b59000-7888b5a000 r-xp 00000000 103:12 360                           /system/lib64/libsigchain.so
+7888b5a000-7888b5b000 r--p 00000000 103:12 360                           /system/lib64/libsigchain.so
+7888b5b000-7888b5c000 rw-p 00001000 103:12 360                           /system/lib64/libsigchain.so
+7888b6c000-7888b8c000 rw-p 00000000 00:04 267703                         /dev/ashmem/dalvik-CompilerMetadata (deleted)
+7888b8c000-7888ba0000 r-xp 00000000 103:12 145                           /system/lib64/liblz4.so
+7888ba0000-7888ba1000 r--p 00013000 103:12 145                           /system/lib64/liblz4.so
+7888ba1000-7888ba2000 rw-p 00014000 103:12 145                           /system/lib64/liblz4.so
+7888ba2000-7888bc2000 rw-p 00000000 00:04 267702                         /dev/ashmem/dalvik-CompilerMetadata (deleted)
+7888bc2000-7888bc5000 r--p 00000000 00:00 0                              [anon:cfi shadow]
+7888bc5000-7888bc6000 r--p 00000000 00:00 0                              [anon:cfi shadow]
+7888bc6000-7888ed1000 r--p 00000000 00:00 0                              [anon:cfi shadow]
+7888ed1000-7888ed2000 r--p 00000000 00:00 0                              [anon:cfi shadow]
+7888ed2000-7888f85000 r--p 00000000 00:00 0                              [anon:cfi shadow]
+7888f85000-7888f86000 r--p 00000000 00:00 0                              [anon:cfi shadow]
+7888f86000-7888f87000 r--p 00000000 00:00 0                              [anon:cfi shadow]
+7888f87000-7888f8a000 r--p 00000000 00:00 0                              [anon:cfi shadow]
+7888f8a000-7888f8b000 r--p 00000000 00:00 0                              [anon:cfi shadow]
+7888f8b000-7908bc2000 r--p 00000000 00:00 0                              [anon:cfi shadow]
+7908bc2000-7908c2d000 r-xp 00000000 103:12 350                           /system/lib64/android.hardware.media.omx@1.0.so
+7908c2d000-7908c2e000 ---p 00000000 00:00 0 
+7908c2e000-7908c37000 r--p 0006b000 103:12 350                           /system/lib64/android.hardware.media.omx@1.0.so
+7908c37000-7908c38000 rw-p 00074000 103:12 350                           /system/lib64/android.hardware.media.omx@1.0.so
+7908c47000-7908c67000 rw-p 00000000 00:04 266410                         /dev/ashmem/dalvik-LinearAlloc (deleted)
+7908c67000-7908c6c000 r-xp 00000000 103:12 427                           /system/lib64/libprocessgroup.so
+7908c6c000-7908c6d000 ---p 00000000 00:00 0 
+7908c6d000-7908c6e000 r--p 00005000 103:12 427                           /system/lib64/libprocessgroup.so
+7908c6e000-7908c6f000 rw-p 00006000 103:12 427                           /system/lib64/libprocessgroup.so
+7908c85000-7908c93000 r-xp 00000000 103:12 247                           /system/lib64/libtinyxml2.so
+7908c93000-7908c94000 ---p 00000000 00:00 0 
+7908c94000-7908c95000 r--p 0000e000 103:12 247                           /system/lib64/libtinyxml2.so
+7908c95000-7908c96000 rw-p 0000f000 103:12 247                           /system/lib64/libtinyxml2.so
+7908c97000-7908cdd000 r--s 01ddc000 103:12 1669                          /system/framework/framework-res.apk
+7908cdd000-7908cde000 r-xp 00000000 103:12 62                            /system/lib64/libvndksupport.so
+7908cde000-7908cdf000 r--p 00000000 103:12 62                            /system/lib64/libvndksupport.so
+7908cdf000-7908ce0000 rw-p 00001000 103:12 62                            /system/lib64/libvndksupport.so
+7908ce2000-7908d2c000 r--s 00000000 103:12 1959                          /system/fonts/RobotoCondensed-Light.ttf
+7908d2c000-7908d35000 r-xp 00000000 103:12 280                           /system/lib64/libGLESv1_CM.so
+7908d35000-7908d36000 r--p 00008000 103:12 280                           /system/lib64/libGLESv1_CM.so
+7908d36000-7908d37000 rw-p 00009000 103:12 280                           /system/lib64/libGLESv1_CM.so
+7908d3f000-7908d5f000 rw-p 00000000 00:04 266409                         /dev/ashmem/dalvik-LinearAlloc (deleted)
+7908d5f000-7908d61000 r-xp 00000000 103:12 315                           /system/lib64/libhardware_legacy.so
+7908d61000-7908d62000 r--p 00001000 103:12 315                           /system/lib64/libhardware_legacy.so
+7908d62000-7908d63000 rw-p 00002000 103:12 315                           /system/lib64/libhardware_legacy.so
+7908d67000-7908db2000 r--s 00000000 103:12 1882                          /system/fonts/Roboto-Bold.ttf
+7908db2000-7908db7000 r-xp 00000000 103:12 111                           /system/lib64/android.hardware.media@1.0.so
+7908db7000-7908db8000 ---p 00000000 00:00 0 
+7908db8000-7908db9000 r--p 00005000 103:12 111                           /system/lib64/android.hardware.media@1.0.so
+7908db9000-7908dba000 rw-p 00006000 103:12 111                           /system/lib64/android.hardware.media@1.0.so
+7908dd8000-7908df1000 r-xp 00000000 103:12 398                           /system/lib64/libunwind.so
+7908df1000-7908df2000 ---p 00000000 00:00 0 
+7908df2000-7908df3000 r--p 00019000 103:12 398                           /system/lib64/libunwind.so
+7908df3000-7908df4000 rw-p 0001a000 103:12 398                           /system/lib64/libunwind.so
+7908df4000-7908e5d000 rw-p 00000000 00:00 0                              [anon:.bss]
+7908e61000-7908e81000 rw-p 00000000 00:04 266408                         /dev/ashmem/dalvik-LinearAlloc (deleted)
+7908e81000-7908ea1000 rw-p 00000000 00:04 267682                         /dev/ashmem/dalvik-CompilerMetadata (deleted)
+7908ea1000-7908ea5000 r-xp 00000000 103:12 68                            /system/lib64/libstagefright_http_support.so
+7908ea5000-7908ea6000 r--p 00003000 103:12 68                            /system/lib64/libstagefright_http_support.so
+7908ea6000-7908ea7000 rw-p 00004000 103:12 68                            /system/lib64/libstagefright_http_support.so
+7908eab000-7908ecb000 rw-p 00000000 00:04 266407                         /dev/ashmem/dalvik-CompilerMetadata (deleted)
+7908ecb000-7908ee8000 r-xp 00000000 103:12 281                           /system/lib64/libutils.so
+7908ee8000-7908ee9000 ---p 00000000 00:00 0 
+7908ee9000-7908eea000 r--p 0001d000 103:12 281                           /system/lib64/libutils.so
+7908eea000-7908eeb000 rw-p 0001e000 103:12 281                           /system/lib64/libutils.so
+7908eec000-7908f0c000 rw-p 00000000 00:04 266400                         /dev/ashmem/dalvik-LinearAlloc (deleted)
+7908f0c000-7908f2c000 rw-p 00000000 00:04 266399                         /dev/ashmem/dalvik-CompilerMetadata (deleted)
+7908f2c000-7908f32000 r-xp 00000000 103:12 282                           /system/lib64/libheif.so
+7908f32000-7908f33000 ---p 00000000 00:00 0 
+7908f33000-7908f34000 r--p 00006000 103:12 282                           /system/lib64/libheif.so
+7908f34000-7908f35000 rw-p 00007000 103:12 282                           /system/lib64/libheif.so
+7908f40000-7908f4d000 r-xp 00000000 103:12 120                           /system/lib64/libmediautils.so
+7908f4d000-7908f4f000 r--p 0000c000 103:12 120                           /system/lib64/libmediautils.so
+7908f4f000-7908f50000 rw-p 0000e000 103:12 120                           /system/lib64/libmediautils.so
+7908f67000-7908fb9000 r--s 00000000 103:12 1850                          /system/fonts/Roboto-LightItalic.ttf
+7908fb9000-7908fbb000 r-xp 00000000 103:12 336                           /system/lib64/libnetd_client.so
+7908fbb000-7908fbc000 ---p 00000000 00:00 0 
+7908fbc000-7908fbd000 r--p 00002000 103:12 336                           /system/lib64/libnetd_client.so
+7908fbd000-7908fbe000 rw-p 00003000 103:12 336                           /system/lib64/libnetd_client.so
+7908fca000-7908fe9000 r-xp 00000000 103:12 74                            /system/lib64/android.hardware.configstore@1.0.so
+7908fe9000-7908fec000 r--p 0001e000 103:12 74                            /system/lib64/android.hardware.configstore@1.0.so
+7908fec000-7908fed000 rw-p 00021000 103:12 74                            /system/lib64/android.hardware.configstore@1.0.so
+7909001000-7909003000 r-xp 00000000 103:12 60                            /system/lib64/libgraphicsenv.so
+7909003000-7909004000 r--p 00001000 103:12 60                            /system/lib64/libgraphicsenv.so
+7909004000-7909005000 rw-p 00002000 103:12 60                            /system/lib64/libgraphicsenv.so
+790900b000-790904c000 r--s 00000000 103:12 1839                          /system/fonts/NotoSerif-BoldItalic.ttf
+790904c000-7909114000 r-xp 00000000 103:12 385                           /system/lib64/libdng_sdk.so
+7909114000-790911b000 r--p 000c7000 103:12 385                           /system/lib64/libdng_sdk.so
+790911b000-790911c000 rw-p 000ce000 103:12 385                           /system/lib64/libdng_sdk.so
+7909127000-790914b000 r--s 00000000 103:12 924                           /system/usr/hyphen-data/hyph-nn.hyb
+790914b000-7909367000 r-xp 00000000 103:12 429                           /system/lib64/libicui18n.so
+7909367000-790937a000 r--p 0021b000 103:12 429                           /system/lib64/libicui18n.so
+790937a000-790937b000 rw-p 0022e000 103:12 429                           /system/lib64/libicui18n.so
+7909382000-79093cc000 r-xp 00000000 103:12 424                           /system/lib64/libmedia_omx.so
+79093cc000-79093db000 r--p 00049000 103:12 424                           /system/lib64/libmedia_omx.so
+79093db000-79093e1000 rw-p 00058000 103:12 424                           /system/lib64/libmedia_omx.so
+79093e3000-7909434000 r--s 00000000 103:12 1832                          /system/fonts/Roboto-ThinItalic.ttf
+7909434000-7909438000 r-xp 00000000 103:12 366                           /system/lib64/libspeexresampler.so
+7909438000-7909439000 r--p 00003000 103:12 366                           /system/lib64/libspeexresampler.so
+7909439000-790943a000 rw-p 00004000 103:12 366                           /system/lib64/libspeexresampler.so
+7909443000-7909526000 r-xp 00000000 103:12 155                           /system/lib64/libc++.so
+7909526000-7909527000 ---p 00000000 00:00 0 
+7909527000-790952f000 r--p 000e3000 103:12 155                           /system/lib64/libc++.so
+790952f000-7909530000 rw-p 000eb000 103:12 155                           /system/lib64/libc++.so
+7909530000-7909533000 rw-p 00000000 00:00 0                              [anon:.bss]
+7909548000-79097f3000 r-xp 00000000 103:12 378                           /system/lib64/libstagefright.so
+79097f3000-7909822000 r--p 002aa000 103:12 378                           /system/lib64/libstagefright.so
+7909822000-790986e000 rw-p 002d9000 103:12 378                           /system/lib64/libstagefright.so
+7909889000-79098bc000 r-xp 00000000 103:12 364                           /system/lib64/libpng.so
+79098bc000-79098bd000 ---p 00000000 00:00 0 
+79098bd000-79098be000 r--p 00033000 103:12 364                           /system/lib64/libpng.so
+79098be000-79098bf000 rw-p 00034000 103:12 364                           /system/lib64/libpng.so
+79098d4000-79098e9000 r-xp 00000000 103:12 248                           /system/lib64/libGLESv2.so
+79098e9000-79098ea000 r--p 00014000 103:12 248                           /system/lib64/libGLESv2.so
+79098ea000-79098eb000 rw-p 00015000 103:12 248                           /system/lib64/libGLESv2.so
+7909902000-7909916000 r-xp 00000000 103:12 286                           /system/lib64/android.hidl.allocator@1.0.so
+7909916000-7909917000 ---p 00000000 00:00 0 
+7909917000-7909919000 r--p 00014000 103:12 286                           /system/lib64/android.hidl.allocator@1.0.so
+7909919000-790991a000 rw-p 00016000 103:12 286                           /system/lib64/android.hidl.allocator@1.0.so
+790991a000-7909965000 r--s 00000000 103:12 1957                          /system/fonts/Roboto-Black.ttf
+7909965000-790997a000 r-xp 00000000 103:12 351                           /system/lib64/android.hidl.token@1.0.so
+790997a000-790997b000 ---p 00000000 00:00 0 
+790997b000-790997d000 r--p 00015000 103:12 351                           /system/lib64/android.hidl.token@1.0.so
+790997d000-790997e000 rw-p 00017000 103:12 351                           /system/lib64/android.hidl.token@1.0.so
+7909981000-790999b000 r-xp 00000000 103:12 376                           /system/lib64/android.hardware.graphics.mapper@2.0.so
+790999b000-790999e000 r--p 00019000 103:12 376                           /system/lib64/android.hardware.graphics.mapper@2.0.so
+790999e000-790999f000 rw-p 0001c000 103:12 376                           /system/lib64/android.hardware.graphics.mapper@2.0.so
+79099a4000-79099ef000 r--s 00000000 103:12 1985                          /system/fonts/Roboto-Medium.ttf
+79099ef000-79099f6000 r-xp 00000000 103:12 293                           /system/lib64/libaudiomanager.so
+79099f6000-79099f8000 r--p 00006000 103:12 293                           /system/lib64/libaudiomanager.so
+79099f8000-79099f9000 rw-p 00008000 103:12 293                           /system/lib64/libaudiomanager.so
+7909a00000-7909af1000 r-xp 00000000 103:12 177                           /system/lib64/libhwui.so
+7909af1000-7909afb000 r--p 000f0000 103:12 177                           /system/lib64/libhwui.so
+7909afb000-7909afc000 rw-p 000fa000 103:12 177                           /system/lib64/libhwui.so
+7909afd000-7909b21000 r--s 00000000 103:12 946                           /system/usr/hyphen-data/hyph-nb.hyb
+7909b21000-7909b3b000 r-xp 00000000 103:12 128                           /system/lib64/libstagefright_flacdec.so
+7909b3b000-7909b3c000 r--p 00019000 103:12 128                           /system/lib64/libstagefright_flacdec.so
+7909b3c000-7909b3d000 rw-p 0001a000 103:12 128                           /system/lib64/libstagefright_flacdec.so
+7909b48000-7909b63000 r--s 00000000 103:12 894                           /system/usr/hyphen-data/hyph-de-ch-1901.hyb
+7909b63000-7909b68000 r-xp 00000000 103:12 188                           /system/lib64/libnativeloader.so
+7909b68000-7909b69000 r--p 00004000 103:12 188                           /system/lib64/libnativeloader.so
+7909b69000-7909b6a000 rw-p 00005000 103:12 188                           /system/lib64/libnativeloader.so
+7909b6c000-7909b8c000 rw-p 00000000 00:04 22004                          /dev/ashmem/dalvik-LinearAlloc (deleted)
+7909b8c000-7909b93000 r-xp 00000000 103:12 168                           /system/lib64/libcamera_metadata.so
+7909b93000-7909b94000 ---p 00000000 00:00 0 
+7909b94000-7909b95000 r--p 00007000 103:12 168                           /system/lib64/libcamera_metadata.so
+7909b95000-7909b97000 rw-p 00008000 103:12 168                           /system/lib64/libcamera_metadata.so
+7909bad000-7909bcd000 rw-p 00000000 00:04 21979                          /dev/ashmem/dalvik-LinearAlloc (deleted)
+7909bcd000-7909c10000 r-xp 00000000 103:12 313                           /system/lib64/libcamera_client.so
+7909c10000-7909c11000 ---p 00000000 00:00 0 
+7909c11000-7909c1c000 r--p 00043000 103:12 313                           /system/lib64/libcamera_client.so
+7909c1c000-7909c1d000 rw-p 0004e000 103:12 313                           /system/lib64/libcamera_client.so
+7909c32000-7909c50000 r--s 00000000 103:12 1853                          /system/fonts/GoogleSans-BoldItalic.ttf
+7909c50000-7909cb0000 r-xp 00000000 103:12 109                           /system/lib64/android.hardware.drm@1.0.so
+7909cb0000-7909cb1000 ---p 00000000 00:00 0 
+7909cb1000-7909cb9000 r--p 00060000 103:12 109                           /system/lib64/android.hardware.drm@1.0.so
+7909cb9000-7909cba000 rw-p 00068000 103:12 109                           /system/lib64/android.hardware.drm@1.0.so
+7909cc1000-7909cde000 r--s 00000000 103:12 1837                          /system/fonts/GoogleSans-Bold.ttf
+7909cde000-7909cef000 r-xp 00000000 103:12 238                           /system/lib64/libimg_utils.so
+7909cef000-7909cf2000 r--p 00010000 103:12 238                           /system/lib64/libimg_utils.so
+7909cf2000-7909cf3000 rw-p 00013000 103:12 238                           /system/lib64/libimg_utils.so
+7909cfe000-7909d1c000 r--s 00000000 103:12 1844                          /system/fonts/GoogleSans-MediumItalic.ttf
+7909d1c000-7909d3a000 r-xp 00000000 103:12 132                           /system/lib64/libvorbisidec.so
+7909d3a000-7909d3b000 ---p 00000000 00:00 0 
+7909d3b000-7909d3c000 r--p 0001e000 103:12 132                           /system/lib64/libvorbisidec.so
+7909d3c000-7909d3d000 rw-p 0001f000 103:12 132                           /system/lib64/libvorbisidec.so
+7909d56000-7909d58000 r-xp 00000000 103:12 325                           /system/lib64/libdl.so
+7909d58000-7909d59000 r--p 00001000 103:12 325                           /system/lib64/libdl.so
+7909d59000-7909d5a000 rw-p 00002000 103:12 325                           /system/lib64/libdl.so
+7909d5a000-7909d5b000 r--p 00000000 00:00 0                              [anon:.bss]
+7909d62000-7909d9f000 r--s 00000000 103:12 1885                          /system/fonts/NotoSerif-Italic.ttf
+7909d9f000-7909de7000 r-xp 00000000 103:12 383                           /system/lib64/libjpeg.so
+7909de7000-7909de8000 ---p 00000000 00:00 0 
+7909de8000-7909de9000 r--p 00048000 103:12 383                           /system/lib64/libjpeg.so
+7909de9000-7909dea000 rw-p 00049000 103:12 383                           /system/lib64/libjpeg.so
+7909e02000-7909e39000 r-xp 00000000 103:12 254                           /system/lib64/libm.so
+7909e39000-7909e3a000 r--p 00036000 103:12 254                           /system/lib64/libm.so
+7909e3a000-7909e3b000 rw-p 00037000 103:12 254                           /system/lib64/libm.so
+7909e4c000-7909e4d000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+7909e4d000-7909e51000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+7909e51000-7909e6e000 r--s 00000000 103:12 1941                          /system/fonts/GoogleSans-Medium.ttf
+7909e6e000-7909eb5000 r-xp 00000000 103:12 77                            /system/lib64/libRScpp.so
+7909eb5000-7909eb6000 r--p 00046000 103:12 77                            /system/lib64/libRScpp.so
+7909eb6000-7909eb7000 rw-p 00047000 103:12 77                            /system/lib64/libRScpp.so
+7909eb8000-7909eba000 rw-p 00000000 00:04 266422                         /dev/ashmem/dalvik-indirect ref table (deleted)
+7909eba000-7909ebb000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+7909ebb000-7909ebf000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+7909ebf000-7909efc000 r--s 00000000 103:12 1906                          /system/fonts/NotoSerif-Bold.ttf
+7909efc000-7909efe000 r-xp 00000000 103:12 377                           /system/lib64/libpackagelistparser.so
+7909efe000-7909eff000 r--p 00001000 103:12 377                           /system/lib64/libpackagelistparser.so
+7909eff000-7909f00000 rw-p 00002000 103:12 377                           /system/lib64/libpackagelistparser.so
+7909f01000-7909f0c000 r-xp 00000000 103:12 307                           /system/lib64/libziparchive.so
+7909f0c000-7909f0d000 r--p 0000a000 103:12 307                           /system/lib64/libziparchive.so
+7909f0d000-7909f0e000 rw-p 0000b000 103:12 307                           /system/lib64/libziparchive.so
+7909f0e000-7909f0f000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+7909f0f000-7909f12000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+7909f12000-7909f13000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+7909f13000-7909f5e000 r--s 00000000 103:12 1954                          /system/fonts/Roboto-Regular.ttf
+7909f5e000-790a064000 r-xp 00000000 103:12 392                           /system/lib64/libcrypto.so
+790a064000-790a065000 ---p 00000000 00:00 0 
+790a065000-790a076000 r--p 00106000 103:12 392                           /system/lib64/libcrypto.so
+790a076000-790a077000 rw-p 00117000 103:12 392                           /system/lib64/libcrypto.so
+790a077000-790a078000 rw-p 00000000 00:00 0                              [anon:.bss]
+790a078000-790a07a000 rw-p 00000000 00:04 266421                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790a07a000-790a07b000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a07b000-790a07e000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790a07e000-790a07f000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a07f000-790a080000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790a080000-790a084000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790a084000-790a0a2000 r--s 00000000 103:12 1988                          /system/fonts/GoogleSans-Italic.ttf
+790a0a2000-790a0b2000 r-xp 00000000 103:12 393                           /system/lib64/libselinux.so
+790a0b2000-790a0b3000 rwxp 00010000 103:12 393                           /system/lib64/libselinux.so
+790a0b3000-790a0b7000 r-xp 00011000 103:12 393                           /system/lib64/libselinux.so
+790a0b7000-790a0b8000 ---p 00000000 00:00 0 
+790a0b8000-790a0b9000 r--p 00015000 103:12 393                           /system/lib64/libselinux.so
+790a0b9000-790a0ba000 rw-p 00016000 103:12 393                           /system/lib64/libselinux.so
+790a0ba000-790a0bb000 rw-p 00000000 00:00 0                              [anon:.bss]
+790a0bb000-790a0bc000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a0bc000-790a0bf000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790a0bf000-790a0c0000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a0c0000-790a0c1000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790a0c1000-790a0c5000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790a0c5000-790a0c6000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a0c6000-790a0c9000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790a0c9000-790a0ca000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a0ca000-790a0d0000 rw-p 00000000 103:12 519                           /system/etc/event-log-tags
+790a0d0000-790a0ea000 r-xp 00000000 103:12 127                           /system/lib64/android.hardware.cas.native@1.0.so
+790a0ea000-790a0ed000 r--p 00019000 103:12 127                           /system/lib64/android.hardware.cas.native@1.0.so
+790a0ed000-790a0ee000 rw-p 0001c000 103:12 127                           /system/lib64/android.hardware.cas.native@1.0.so
+790a0ee000-790a102000 r--s 0068e000 103:13 1204304                       /data/app/ng1ok.detect-sKPYsuLwJaL4jd3My7HfNw==/base.apk
+790a102000-790a17d000 r-xp 00000000 103:12 407                           /system/lib64/libharfbuzz_ng.so
+790a17d000-790a17f000 r--p 0007a000 103:12 407                           /system/lib64/libharfbuzz_ng.so
+790a17f000-790a180000 rw-p 0007c000 103:12 407                           /system/lib64/libharfbuzz_ng.so
+790a180000-790a182000 r--s f8001000 00:10 14232                          /dev/kgsl-3d0
+790a182000-790a184000 rw-p 00000000 00:04 262761                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790a184000-790a185000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790a185000-790a189000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790a189000-790a18a000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a18a000-790a18d000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790a18d000-790a18e000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a18e000-790a18f000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790a18f000-790a193000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790a193000-790a1b3000 r-xp 00000000 103:12 71                            /system/lib64/libpcre2.so
+790a1b3000-790a1b4000 r--p 0001f000 103:12 71                            /system/lib64/libpcre2.so
+790a1b4000-790a1b5000 rw-p 00020000 103:12 71                            /system/lib64/libpcre2.so
+790a1b6000-790a1b7000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a1b7000-790a1ba000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790a1ba000-790a1bb000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a1bb000-790a1bc000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790a1bc000-790a1c0000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790a1c0000-790a1c1000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a1c1000-790a1c4000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790a1c4000-790a1c5000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a1c5000-790a1e3000 r-xp 00000000 103:12 54                            /system/lib64/libdrmframework.so
+790a1e3000-790a1e8000 r--p 0001d000 103:12 54                            /system/lib64/libdrmframework.so
+790a1e8000-790a1e9000 rw-p 00022000 103:12 54                            /system/lib64/libdrmframework.so
+790a1ea000-790a1eb000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790a1eb000-790a1ef000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790a1ef000-790a1f0000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a1f0000-790a1f3000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790a1f3000-790a1f4000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790a1f4000-790a1fd000 r--s 00000000 103:12 958                           /system/usr/hyphen-data/hyph-ga.hyb
+790a1fd000-790a203000 r--s 00000000 103:12 954                           /system/usr/hyphen-data/hyph-et.hyb
+790a203000-790a213000 r-xp 00000000 103:12 255                           /system/lib64/libbase.so
+790a213000-790a214000 r--p 0000f000 103:12 255                           /system/lib64/libbase.so
+790a214000-790a215000 rw-p 00010000 103:12 255                           /system/lib64/libbase.so
+790a215000-790a22f000 r--s 00000000 103:12 905                           /system/usr/hyphen-data/hyph-de-1996.hyb
+790a22f000-790a24d000 r--s 00000000 103:12 1822                          /system/fonts/GoogleSans-Regular.ttf
+790a24d000-790a26e000 r-xp 00000000 103:12 76                            /system/lib64/libui.so
+790a26e000-790a270000 r--p 00020000 103:12 76                            /system/lib64/libui.so
+790a270000-790a271000 rw-p 00022000 103:12 76                            /system/lib64/libui.so
+790a272000-790a28d000 r--s 00000000 103:12 950                           /system/usr/hyphen-data/hyph-de-1901.hyb
+790a28d000-790a3a0000 r-xp 00000000 103:12 337                           /system/lib64/libsqlite.so
+790a3a0000-790a3a3000 r--p 00112000 103:12 337                           /system/lib64/libsqlite.so
+790a3a3000-790a3a5000 rw-p 00115000 103:12 337                           /system/lib64/libsqlite.so
+790a3a5000-790a3a7000 rw-p 00000000 00:04 266398                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790a3a7000-790a3a9000 rw-p 00000000 00:04 266397                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790a3a9000-790a3b8000 r--s 00000000 103:12 945                           /system/usr/hyphen-data/hyph-en-us.hyb
+790a3b8000-790a3d5000 r--s 00000000 103:12 1980                          /system/fonts/DancingScript-Bold.ttf
+790a3d5000-790a3f5000 r-xp 00000000 103:12 289                           /system/lib64/libminikin.so
+790a3f5000-790a3f6000 ---p 00000000 00:00 0 
+790a3f6000-790a3f7000 r--p 00020000 103:12 289                           /system/lib64/libminikin.so
+790a3f7000-790a3f8000 rw-p 00021000 103:12 289                           /system/lib64/libminikin.so
+790a3f8000-790a3f9000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790a3f9000-790a3fd000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790a3fd000-790a409000 r--s 00000000 103:12 951                           /system/usr/hyphen-data/hyph-en-gb.hyb
+790a409000-790a41d000 r-xp 00000000 103:12 57                            /system/lib64/android.hardware.graphics.allocator@2.0.so
+790a41d000-790a41e000 ---p 00000000 00:00 0 
+790a41e000-790a420000 r--p 00014000 103:12 57                            /system/lib64/android.hardware.graphics.allocator@2.0.so
+790a420000-790a421000 rw-p 00016000 103:12 57                            /system/lib64/android.hardware.graphics.allocator@2.0.so
+790a421000-790a42e000 r--s 00000000 103:12 936                           /system/usr/hyphen-data/hyph-cu.hyb
+790a42e000-790a44b000 r--s 00000000 103:12 1835                          /system/fonts/DancingScript-Regular.ttf
+790a44b000-790a44f000 r-xp 00000000 103:12 178                           /system/lib64/libusbhost.so
+790a44f000-790a450000 r--p 00003000 103:12 178                           /system/lib64/libusbhost.so
+790a450000-790a451000 rw-p 00004000 103:12 178                           /system/lib64/libusbhost.so
+790a451000-790a453000 rw-p 00000000 00:04 266396                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790a453000-790a468000 r--s 00198000 fd:00 256                            /vendor/overlay/framework-res__auto_generated_rro.apk
+790a468000-790a483000 r--s 00000000 103:12 1864                          /system/fonts/DroidSansMono.ttf
+790a483000-790a48f000 r-xp 00000000 103:12 124                           /system/lib64/libsoundtrigger.so
+790a48f000-790a490000 ---p 00000000 00:00 0 
+790a490000-790a494000 r--p 0000c000 103:12 124                           /system/lib64/libsoundtrigger.so
+790a494000-790a495000 rw-p 00010000 103:12 124                           /system/lib64/libsoundtrigger.so
+790a496000-790a498000 rw-p 00000000 00:04 266395                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790a498000-790a4a1000 r--s 00000000 103:12 944                           /system/usr/hyphen-data/hyph-cy.hyb
+790a4a1000-790a4de000 r--s 00000000 103:12 1932                          /system/fonts/NotoSerif-Regular.ttf
+790a4de000-790a537000 r-xp 00000000 103:12 428                           /system/lib64/libsonivox.so
+790a537000-790a538000 r--p 00058000 103:12 428                           /system/lib64/libsonivox.so
+790a538000-790a539000 rw-p 00059000 103:12 428                           /system/lib64/libsonivox.so
+790a539000-790a540000 rw-p 00000000 00:00 0                              [anon:.bss]
+790a540000-790a54a000 r--s 00000000 103:12 1881                          /system/fonts/CarroisGothicSC-Regular.ttf
+790a54a000-790a559000 r--s 00000000 103:12 1984                          /system/fonts/ComingSoon.ttf
+790a559000-790a563000 r-xp 00000000 103:12 359                           /system/lib64/android.hardware.graphics.common@1.0.so
+790a563000-790a564000 r--p 00009000 103:12 359                           /system/lib64/android.hardware.graphics.common@1.0.so
+790a564000-790a565000 rw-p 0000a000 103:12 359                           /system/lib64/android.hardware.graphics.common@1.0.so
+790a565000-790a566000 rw-s 00000000 00:04 267712                         /dev/ashmem/GFXStats-23574 (deleted)
+790a566000-790a568000 r--s 00000000 103:12 917                           /system/usr/hyphen-data/hyph-sl.hyb
+790a568000-790a56a000 r--s 00000000 103:12 943                           /system/usr/hyphen-data/hyph-mn-cyrl.hyb
+790a56a000-790a57b000 r--s 00000000 103:12 1826                          /system/fonts/CutiveMono.ttf
+790a57b000-790a597000 r--s 00000000 103:12 1931                          /system/fonts/NotoSansMongolian-Regular.ttf
+790a597000-790a59b000 r-xp 00000000 103:12 273                           /system/lib64/libnativewindow.so
+790a59b000-790a59c000 r--p 00003000 103:12 273                           /system/lib64/libnativewindow.so
+790a59c000-790a59d000 rw-p 00004000 103:12 273                           /system/lib64/libnativewindow.so
+790a59d000-790a59f000 r--s 00000000 103:12 934                           /system/usr/hyphen-data/hyph-fr.hyb
+790a59f000-790a5a3000 r--s 00000000 103:12 931                           /system/usr/hyphen-data/hyph-es.hyb
+790a5a3000-790a5aa000 r--s 00000000 103:12 1923                          /system/fonts/NotoSansPhagsPa-Regular.ttf
+790a5aa000-790a5c9000 r--s 00000000 103:12 1901                          /system/fonts/NotoSansYi-Regular.ttf
+790a5c9000-790a5d9000 r--s 00000000 103:12 1899                          /system/fonts/NotoSansVai-Regular.ttf
+790a5d9000-790a5e5000 r--s 00000000 103:12 1998                          /system/fonts/NotoSansTaiTham-Regular.ttf
+790a5e5000-790a5fa000 r-xp 00000000 103:12 245                           /system/lib64/libz.so
+790a5fa000-790a5fb000 r--p 00014000 103:12 245                           /system/lib64/libz.so
+790a5fb000-790a5fc000 rw-p 00015000 103:12 245                           /system/lib64/libz.so
+790a5fc000-790a5fd000 r--s 00000000 00:04 29752                          /dev/ashmem/517586fa-4ce2-44dc-8e7f-46c1e75f1584 (deleted)
+790a5fd000-790a60a000 r--s 00000000 103:12 1836                          /system/fonts/NotoSansSyriacWestern-Regular.ttf
+790a60a000-790a617000 r--s 00000000 103:12 1978                          /system/fonts/NotoSansSyriacEastern-Regular.ttf
+790a617000-790a626000 r--s 00000000 103:12 1845                          /system/fonts/NotoSansLinearB-Regular.ttf
+790a626000-790a675000 r-xp 00000000 103:12 405                           /system/lib64/libandroidfw.so
+790a675000-790a678000 r--p 0004e000 103:12 405                           /system/lib64/libandroidfw.so
+790a678000-790a679000 rw-p 00051000 103:12 405                           /system/lib64/libandroidfw.so
+790a679000-790a67b000 r--s 00000000 103:12 896                           /system/usr/hyphen-data/hyph-da.hyb
+790a67b000-790a687000 r--s 00000000 103:12 1994                          /system/fonts/NotoSansSyriacEstrangela-Regular.ttf
+790a687000-790a68a000 r-xp 00000000 103:12 308                           /system/lib64/libnativebridge.so
+790a68a000-790a68b000 ---p 00000000 00:00 0 
+790a68b000-790a68c000 r--p 00003000 103:12 308                           /system/lib64/libnativebridge.so
+790a68c000-790a68d000 rw-p 00004000 103:12 308                           /system/lib64/libnativebridge.so
+790a68d000-790a68f000 r--s 001ae000 fd:00 256                            /vendor/overlay/framework-res__auto_generated_rro.apk
+790a68f000-790a698000 r--s 00000000 103:12 1949                          /system/fonts/NotoSansSymbols-Regular-Subsetted2.ttf
+790a698000-790a6b1000 r--s 00000000 103:12 1995                          /system/fonts/NotoSansLepcha-Regular.ttf
+790a6b1000-790a6c0000 r--s 00000000 103:12 1834                          /system/fonts/NotoSansKaithi-Regular.ttf
+790a6c0000-790a6e5000 r-xp 00000000 103:12 209                           /system/lib64/libinput.so
+790a6e5000-790a6ec000 r--p 00024000 103:12 209                           /system/lib64/libinput.so
+790a6ec000-790a6ed000 rw-p 0002b000 103:12 209                           /system/lib64/libinput.so
+790a6ed000-790a6ee000 r--s 00000000 103:12 912                           /system/usr/hyphen-data/hyph-und-ethi.hyb
+790a6ee000-790a6f1000 r--s 00000000 103:12 1896                          /system/fonts/NotoSansTaiLe-Regular.ttf
+790a6f1000-790a6f3000 r--s 00000000 103:12 1914                          /system/fonts/NotoSansUgaritic-Regular.ttf
+790a6f3000-790a6f7000 r--s 00000000 103:12 1825                          /system/fonts/NotoSansTifinagh-Regular.ttf
+790a6f7000-790a718000 r--s 00000000 103:12 1908                          /system/fonts/NotoSansBamum-Regular.ttf
+790a718000-790a732000 r--s 00000000 103:12 1922                          /system/fonts/NotoSansMyanmarUI-Bold.ttf
+790a732000-790a736000 r-xp 00000000 103:12 69                            /system/lib64/libdebuggerd_client.so
+790a736000-790a737000 ---p 00000000 00:00 0 
+790a737000-790a738000 r--p 00004000 103:12 69                            /system/lib64/libdebuggerd_client.so
+790a738000-790a739000 rw-p 00005000 103:12 69                            /system/lib64/libdebuggerd_client.so
+790a739000-790a73a000 r--s 00000000 103:12 915                           /system/usr/hyphen-data/hyph-tk.hyb
+790a73a000-790a73e000 r--s 00000000 103:12 1977                          /system/fonts/NotoSansTaiViet-Regular.ttf
+790a73e000-790a740000 r--s 00000000 103:12 1909                          /system/fonts/NotoSansTagbanwa-Regular.ttf
+790a740000-790abeb000 r-xp 00000000 103:12 130                           /system/lib64/libpdfium.so
+790abeb000-790ac01000 r--p 004aa000 103:12 130                           /system/lib64/libpdfium.so
+790ac01000-790ac05000 rw-p 004c0000 103:12 130                           /system/lib64/libpdfium.so
+790ac05000-790ac09000 r--s 00000000 103:12 1830                          /system/fonts/NotoSansSylotiNagri-Regular.ttf
+790ac09000-790ac55000 r--s 00000000 103:12 1911                          /system/fonts/Roboto-Thin.ttf
+790ac55000-790ac79000 r-xp 00000000 103:12 182                           /system/lib64/libexpat.so
+790ac79000-790ac7a000 ---p 00000000 00:00 0 
+790ac7a000-790ac7c000 r--p 00024000 103:12 182                           /system/lib64/libexpat.so
+790ac7c000-790ac7d000 rw-p 00026000 103:12 182                           /system/lib64/libexpat.so
+790ac7d000-790ac7e000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790ac7e000-790ac80000 r--s 00000000 103:12 1883                          /system/fonts/NotoSansTagalog-Regular.ttf
+790ac80000-790ac8f000 r--s 00000000 103:12 1934                          /system/fonts/NotoSansCherokee-Regular.ttf
+790ac8f000-790acb3000 r--s 00000000 103:12 1852                          /system/fonts/NotoSansKhmer-VF.ttf
+790acb3000-790ad2a000 r-xp 00000000 103:12 114                           /system/lib64/libbinder.so
+790ad2a000-790ad2b000 ---p 00000000 00:00 0 
+790ad2b000-790ad3a000 r--p 00077000 103:12 114                           /system/lib64/libbinder.so
+790ad3a000-790ad3b000 rw-p 00086000 103:12 114                           /system/lib64/libbinder.so
+790ad3b000-790ad3c000 r--s 00000000 103:12 902                           /system/usr/hyphen-data/hyph-te.hyb
+790ad3c000-790ad3f000 r--s 00000000 103:12 1943                          /system/fonts/NotoSansSundanese-Regular.ttf
+790ad3f000-790ad41000 r--s 00000000 103:12 1878                          /system/fonts/NotoSansShavian-Regular.ttf
+790ad41000-790ad5b000 r--s 00000000 103:12 1935                          /system/fonts/NotoSansMyanmarUI-Regular.ttf
+790ad5b000-790ad5e000 r-xp 00000000 103:12 300                           /system/lib64/libstdc++.so
+790ad5e000-790ad5f000 r--p 00002000 103:12 300                           /system/lib64/libstdc++.so
+790ad5f000-790ad60000 rw-p 00003000 103:12 300                           /system/lib64/libstdc++.so
+790ad60000-790ad61000 r--s 00000000 103:12 940                           /system/usr/hyphen-data/hyph-ta.hyb
+790ad61000-790ad66000 r--s 00000000 103:12 1889                          /system/fonts/NotoSansSaurashtra-Regular.ttf
+790ad66000-790ad69000 r--s 00000000 103:12 1981                          /system/fonts/NotoSansSamaritan-Regular.ttf
+790ad69000-790ad6c000 r--s 00000000 103:12 1950                          /system/fonts/NotoSansRunic-Regular.ttf
+790ad6c000-790ad6e000 r--s 00000000 103:12 1858                          /system/fonts/NotoSansRejang-Regular.ttf
+790ad6e000-790ad94000 r--s 00000000 103:12 1890                          /system/fonts/NotoSansSinhala-Bold.ttf
+790ad94000-790ada1000 r-xp 00000000 103:12 425                           /system/lib64/libstagefright_xmlparser.so
+790ada1000-790ada2000 r--p 0000c000 103:12 425                           /system/lib64/libstagefright_xmlparser.so
+790ada2000-790ada3000 rw-p 0000d000 103:12 425                           /system/lib64/libstagefright_xmlparser.so
+790ada3000-790ada7000 r--s 00000000 103:12 1926                          /system/fonts/NotoSansOldPersian-Regular.ttf
+790ada7000-790adc2000 r--s 00000000 103:12 1847                          /system/fonts/NotoSansMyanmar-Bold.ttf
+790adc2000-790adfa000 r-xp 00000000 103:12 340                           /system/lib64/android.hardware.graphics.bufferqueue@1.0.so
+790adfa000-790adfb000 ---p 00000000 00:00 0 
+790adfb000-790adff000 r--p 00038000 103:12 340                           /system/lib64/android.hardware.graphics.bufferqueue@1.0.so
+790adff000-790ae00000 rw-p 0003c000 103:12 340                           /system/lib64/android.hardware.graphics.bufferqueue@1.0.so
+790ae00000-790ae05000 r--s 00000000 103:12 1933                          /system/fonts/NotoSansNKo-Regular.ttf
+790ae05000-790ae2d000 r--s 00000000 103:12 1982                          /system/fonts/NotoSansSinhala-Regular.ttf
+790ae2d000-790af00000 r-xp 00000000 103:12 326                           /system/lib64/libmedia.so
+790af00000-790af01000 ---p 00000000 00:00 0 
+790af01000-790af27000 r--p 000d3000 103:12 326                           /system/lib64/libmedia.so
+790af27000-790af39000 rw-p 000f9000 103:12 326                           /system/lib64/libmedia.so
+790af39000-790af3b000 r--s 00000000 103:12 1903                          /system/fonts/NotoSansPhoenician-Regular.ttf
+790af3b000-790af3f000 r--s 00000000 103:12 1952                          /system/fonts/NotoSansNewTaiLue-Regular.ttf
+790af3f000-790af5a000 r--s 00000000 103:12 1920                          /system/fonts/NotoSansMyanmar-Regular.ttf
+790af5a000-790af6e000 r--s 00000000 103:12 1873                          /system/fonts/NotoSansOriyaUI-Bold.ttf
+790af6e000-790af71000 r-xp 00000000 103:12 56                            /system/lib64/libETC1.so
+790af71000-790af72000 r--p 00002000 103:12 56                            /system/lib64/libETC1.so
+790af72000-790af73000 rw-p 00003000 103:12 56                            /system/lib64/libETC1.so
+790af73000-790af74000 r--s 00000000 103:12 906                           /system/usr/hyphen-data/hyph-pt.hyb
+790af74000-790af88000 r--s 00000000 103:12 1823                          /system/fonts/NotoSansOriyaUI-Regular.ttf
+790af88000-790af9d000 r--s 00000000 103:12 1916                          /system/fonts/NotoSansOriya-Bold.ttf
+790af9d000-790afb2000 r--s 00000000 103:12 1930                          /system/fonts/NotoSansOriya-Regular.ttf
+790afb2000-790aff1000 r-xp 00000000 103:12 338                           /system/lib64/libprotobuf-cpp-lite.so
+790aff1000-790aff3000 r--p 0003e000 103:12 338                           /system/lib64/libprotobuf-cpp-lite.so
+790aff3000-790aff4000 rw-p 00040000 103:12 338                           /system/lib64/libprotobuf-cpp-lite.so
+790aff4000-790aff6000 r--s 00000000 103:12 1987                          /system/fonts/NotoSansOsmanya-Regular.ttf
+790aff6000-790b000000 r--s 00000000 103:12 1871                          /system/fonts/NotoSansJavanese-Regular.ttf
+790b000000-790b014000 r--s 00000000 103:12 1887                          /system/fonts/NotoSansKannadaUI-Bold.ttf
+790b014000-790b030000 r-xp 00000000 103:12 276                           /system/lib64/libvulkan.so
+790b030000-790b032000 r--p 0001b000 103:12 276                           /system/lib64/libvulkan.so
+790b032000-790b033000 rw-p 0001d000 103:12 276                           /system/lib64/libvulkan.so
+790b033000-790b035000 r--s 00000000 103:12 1849                          /system/fonts/NotoSansOldTurkic-Regular.ttf
+790b035000-790b039000 r--s 00000000 103:12 1831                          /system/fonts/NotoSansMeeteiMayek-Regular.ttf
+790b039000-790b045000 r--s 00000000 103:12 1891                          /system/fonts/NotoSansCanadianAboriginal-Regular.ttf
+790b045000-790b053000 r-xp 00000000 103:12 347                           /system/lib64/libmediametrics.so
+790b053000-790b055000 r--p 0000d000 103:12 347                           /system/lib64/libmediametrics.so
+790b055000-790b056000 rw-p 0000f000 103:12 347                           /system/lib64/libmediametrics.so
+790b056000-790b057000 r--s 00000000 103:12 908                           /system/usr/hyphen-data/hyph-pa.hyb
+790b057000-790b05d000 r--s 00000000 103:12 1937                          /system/fonts/NotoSansKharoshthi-Regular.ttf
+790b05d000-790b079000 r--s 00000000 103:12 1929                          /system/fonts/NotoSansTeluguUI-Bold.ttf
+790b079000-790b095000 r--s 00000000 103:12 1938                          /system/fonts/NotoSansTeluguUI-Regular.ttf
+790b095000-790b0af000 r-xp 00000000 103:12 115                           /system/lib64/libc.so
+790b0af000-790b0b1000 rwxp 0001a000 103:12 115                           /system/lib64/libc.so
+790b0b1000-790b0b2000 r-xp 0001c000 103:12 115                           /system/lib64/libc.so
+790b0b2000-790b0b3000 rwxp 0001d000 103:12 115                           /system/lib64/libc.so
+790b0b3000-790b0b4000 r-xp 0001e000 103:12 115                           /system/lib64/libc.so
+790b0b4000-790b0b5000 rwxp 0001f000 103:12 115                           /system/lib64/libc.so
+790b0b5000-790b0bc000 r-xp 00020000 103:12 115                           /system/lib64/libc.so
+790b0bc000-790b0be000 rwxp 00027000 103:12 115                           /system/lib64/libc.so
+790b0be000-790b101000 r-xp 00029000 103:12 115                           /system/lib64/libc.so
+790b101000-790b102000 rwxp 0006c000 103:12 115                           /system/lib64/libc.so
+790b102000-790b15d000 r-xp 0006d000 103:12 115                           /system/lib64/libc.so
+790b15d000-790b15e000 ---p 00000000 00:00 0 
+790b15e000-790b164000 r--p 000c8000 103:12 115                           /system/lib64/libc.so
+790b164000-790b166000 rw-p 000ce000 103:12 115                           /system/lib64/libc.so
+790b166000-790b167000 rw-p 00000000 00:00 0                              [anon:.bss]
+790b167000-790b168000 r--p 00000000 00:00 0                              [anon:.bss]
+790b168000-790b16f000 rw-p 00000000 00:00 0                              [anon:.bss]
+790b16f000-790b175000 r--s 00000000 103:12 1918                          /system/fonts/NotoSansCoptic-Regular.ttf
+790b175000-790b189000 r--s 00000000 103:12 1975                          /system/fonts/NotoSansKannadaUI-Regular.ttf
+790b189000-790b1a0000 r-xp 00000000 103:12 144                           /system/lib64/liblog.so
+790b1a0000-790b1a1000 r--p 00016000 103:12 144                           /system/lib64/liblog.so
+790b1a1000-790b1a2000 rw-p 00017000 103:12 144                           /system/lib64/liblog.so
+790b1a2000-790b1aa000 r--s 00000000 103:12 1936                          /system/fonts/NotoSansBalinese-Regular.ttf
+790b1aa000-790b1c5000 r--s 00000000 103:12 1886                          /system/fonts/NotoSansTelugu-Bold.ttf
+790b1c5000-790b21f000 r-xp 00000000 103:12 143                           /system/lib64/libaudioclient.so
+790b21f000-790b22d000 r--p 00059000 103:12 143                           /system/lib64/libaudioclient.so
+790b22d000-790b22e000 rw-p 00067000 103:12 143                           /system/lib64/libaudioclient.so
+790b22e000-790b232000 r--s 00000000 103:12 1915                          /system/fonts/NotoSansMandaic-Regular.ttf
+790b232000-790b246000 r--s 00000000 103:12 1904                          /system/fonts/NotoSansKannada-Bold.ttf
+790b246000-790b262000 r--s 00000000 103:12 1851                          /system/fonts/NotoSansTelugu-Regular.ttf
+790b262000-790b265000 r-xp 00000000 103:12 334                           /system/lib64/libhidlmemory.so
+790b265000-790b266000 r--p 00002000 103:12 334                           /system/lib64/libhidlmemory.so
+790b266000-790b267000 rw-p 00003000 103:12 334                           /system/lib64/libhidlmemory.so
+790b267000-790b268000 r--s 00000000 103:12 897                           /system/usr/hyphen-data/hyph-or.hyb
+790b268000-790b27d000 r--s 00000000 103:12 1910                          /system/fonts/NotoSansKannada-Regular.ttf
+790b27d000-790b297000 r--s 00000000 103:12 1821                          /system/fonts/NotoSansBengaliUI-Bold.ttf
+790b297000-790b2a3000 r-xp 00000000 103:12 185                           /system/lib64/libhidlbase.so
+790b2a3000-790b2a4000 ---p 00000000 00:00 0 
+790b2a4000-790b2a5000 r--p 0000c000 103:12 185                           /system/lib64/libhidlbase.so
+790b2a5000-790b2a6000 rw-p 0000d000 103:12 185                           /system/lib64/libhidlbase.so
+790b2a6000-790b2a7000 r--s 00000000 103:12 918                           /system/usr/hyphen-data/hyph-mr.hyb
+790b2a7000-790b2c2000 r--s 00000000 103:12 1973                          /system/fonts/NotoSansBengaliUI-Regular.ttf
+790b2c2000-790b2c4000 r-xp 00000000 103:12 264                           /system/lib64/android.hardware.configstore-utils.so
+790b2c4000-790b2c5000 r--p 00001000 103:12 264                           /system/lib64/android.hardware.configstore-utils.so
+790b2c5000-790b2c6000 rw-p 00002000 103:12 264                           /system/lib64/android.hardware.configstore-utils.so
+790b2c6000-790b311000 r--s 00000000 103:12 1958                          /system/fonts/Roboto-Light.ttf
+790b311000-790b365000 r-xp 00000000 103:12 332                           /system/lib64/libvintf.so
+790b365000-790b368000 r--p 00053000 103:12 332                           /system/lib64/libvintf.so
+790b368000-790b369000 rw-p 00056000 103:12 332                           /system/lib64/libvintf.so
+790b369000-790b36a000 rw-p 00000000 00:00 0                              [anon:.bss]
+790b36a000-790b370000 r--s 00000000 103:12 1942                          /system/fonts/NotoSansBrahmi-Regular.ttf
+790b370000-790b389000 r--s 00000000 103:12 1907                          /system/fonts/NotoSansBengali-Bold.ttf
+790b389000-790b3a6000 r--s 00000000 103:12 1970                          /system/fonts/NotoSansGujaratiUI-Regular.ttf
+790b3a6000-790b3b1000 r-xp 00000000 103:12 87                            /system/lib64/libappfuse.so
+790b3b1000-790b3b2000 ---p 00000000 00:00 0 
+790b3b2000-790b3b3000 r--p 0000b000 103:12 87                            /system/lib64/libappfuse.so
+790b3b3000-790b3b4000 rw-p 0000c000 103:12 87                            /system/lib64/libappfuse.so
+790b3b4000-790b3b6000 r--s 00000000 103:12 1990                          /system/fonts/NotoSansOldSouthArabian-Regular.ttf
+790b3b6000-790b3cf000 r--s 00000000 103:12 1967                          /system/fonts/NotoSansBengali-Regular.ttf
+790b3cf000-790b3ec000 r--s 00000000 103:12 1829                          /system/fonts/NotoSansGujarati-Bold.ttf
+790b3ec000-790b427000 r-xp 00000000 103:12 327                           /system/lib64/libwilhelm.so
+790b427000-790b428000 ---p 00000000 00:00 0 
+790b428000-790b42e000 r--p 0003b000 103:12 327                           /system/lib64/libwilhelm.so
+790b42e000-790b42f000 rw-p 00041000 103:12 327                           /system/lib64/libwilhelm.so
+790b42f000-790b430000 r--s 00000000 103:12 937                           /system/usr/hyphen-data/hyph-ml.hyb
+790b430000-790b432000 r--s 00000000 103:12 1895                          /system/fonts/NotoSansOldItalic-Regular.ttf
+790b432000-790b43f000 r--s 00000000 103:12 1874                          /system/fonts/NotoSansAdlam-Regular.ttf
+790b43f000-790b45d000 r--s 00000000 103:12 1972                          /system/fonts/NotoSansGujarati-Regular.ttf
+790b45d000-790b475000 r-xp 00000000 103:12 316                           /system/lib64/libpiex.so
+790b475000-790b476000 r--p 00017000 103:12 316                           /system/lib64/libpiex.so
+790b476000-790b477000 rw-p 00018000 103:12 316                           /system/lib64/libpiex.so
+790b477000-790b493000 r--s 00000000 103:12 1855                          /system/fonts/NotoSansGujaratiUI-Bold.ttf
+790b493000-790b4b4000 r--s 00000000 103:12 1846                          /system/fonts/NotoSansDevanagari-Bold.ttf
+790b4b4000-790b4bb000 r-xp 00000000 103:12 64                            /system/lib64/libnativehelper.so
+790b4bb000-790b4bc000 r--p 00006000 103:12 64                            /system/lib64/libnativehelper.so
+790b4bc000-790b4bd000 rw-p 00007000 103:12 64                            /system/lib64/libnativehelper.so
+790b4bd000-790b4be000 r--s 00000000 103:12 953                           /system/usr/hyphen-data/hyph-kn.hyb
+790b4be000-790b4dc000 r--s 00000000 103:12 1945                          /system/fonts/NotoSansDevanagariUI-Bold.ttf
+790b4dc000-790b659000 r-xp 00000000 103:12 163                           /system/lib64/libicuuc.so
+790b659000-790b65a000 ---p 00000000 00:00 0 
+790b65a000-790b66e000 r--p 0017d000 103:12 163                           /system/lib64/libicuuc.so
+790b66e000-790b66f000 rw-p 00191000 103:12 163                           /system/lib64/libicuuc.so
+790b66f000-790b670000 rw-p 00000000 00:00 0                              [anon:.bss]
+790b670000-790b672000 r--s 00000000 103:12 1968                          /system/fonts/NotoSansOlChiki-Regular.ttf
+790b672000-790b67a000 r--s 00000000 103:12 1961                          /system/fonts/NotoSansLaoUI-Bold.ttf
+790b67a000-790b688000 r--s 00000000 103:12 1927                          /system/fonts/NotoSansMalayalamUI-Bold.ttf
+790b688000-790b6ac000 r--s 00000000 103:12 1859                          /system/fonts/NotoSansEthiopic-Bold.ttf
+790b6ac000-790b6e8000 r-xp 00000000 103:12 66                            /system/lib64/android.hardware.cas@1.0.so
+790b6e8000-790b6ee000 r--p 0003b000 103:12 66                            /system/lib64/android.hardware.cas@1.0.so
+790b6ee000-790b6ef000 rw-p 00041000 103:12 66                            /system/lib64/android.hardware.cas@1.0.so
+790b6ef000-790b6f0000 r--s 00000000 103:12 962                           /system/usr/hyphen-data/hyph-hy.hyb
+790b6f0000-790b712000 r--s 00000000 103:12 1880                          /system/fonts/NotoSansDevanagari-Regular.ttf
+790b712000-790b796000 r-xp 00000000 103:12 78                            /system/lib64/libgui.so
+790b796000-790b797000 ---p 00000000 00:00 0 
+790b797000-790b7a9000 r--p 00084000 103:12 78                            /system/lib64/libgui.so
+790b7a9000-790b7aa000 rw-p 00096000 103:12 78                            /system/lib64/libgui.so
+790b7aa000-790b7ac000 r--s 00000000 103:12 1986                          /system/fonts/NotoSansOgham-Regular.ttf
+790b7ac000-790b7ae000 r--s 00000000 103:12 1962                          /system/fonts/NotoSansLydian-Regular.ttf
+790b7ae000-790b7b6000 r--s 00000000 103:12 1827                          /system/fonts/NotoSansLaoUI-Regular.ttf
+790b7b6000-790b7c4000 r--s 00000000 103:12 1894                          /system/fonts/NotoSansMalayalamUI-Regular.ttf
+790b7c4000-790b81d000 r-xp 00000000 103:12 136                           /system/lib64/libclang_rt.ubsan_standalone-aarch64-android.so
+790b81d000-790b81e000 ---p 00000000 00:00 0 
+790b81e000-790b820000 r--p 00059000 103:12 136                           /system/lib64/libclang_rt.ubsan_standalone-aarch64-android.so
+790b820000-790b823000 rw-p 0005b000 103:12 136                           /system/lib64/libclang_rt.ubsan_standalone-aarch64-android.so
+790b823000-790bb33000 rw-p 00000000 00:00 0                              [anon:.bss]
+790bb33000-790bb34000 r--s 00000000 103:12 925                           /system/usr/hyphen-data/hyph-hr.hyb
+790bb34000-790bb53000 r--s 00000000 103:12 1956                          /system/fonts/NotoSansDevanagariUI-Regular.ttf
+790bb53000-790bb76000 r--s 00000000 103:12 1902                          /system/fonts/NotoSansEthiopic-Regular.ttf
+790bb76000-790bb78000 r-xp 00000000 103:12 204                           /system/lib64/libmemtrack.so
+790bb78000-790bb79000 ---p 00000000 00:00 0 
+790bb79000-790bb7a000 r--p 00002000 103:12 204                           /system/lib64/libmemtrack.so
+790bb7a000-790bb7b000 rw-p 00003000 103:12 204                           /system/lib64/libmemtrack.so
+790bb7b000-790bb7c000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790bb7c000-790bb9a000 r--s 00000000 103:12 1857                          /system/fonts/NotoNaskhArabicUI-Bold.ttf
+790bb9a000-790bbb1000 r-xp 00000000 103:12 117                           /system/lib64/android.hardware.memtrack@1.0.so
+790bbb1000-790bbb2000 ---p 00000000 00:00 0 
+790bbb2000-790bbb4000 r--p 00017000 103:12 117                           /system/lib64/android.hardware.memtrack@1.0.so
+790bbb4000-790bbb5000 rw-p 00019000 103:12 117                           /system/lib64/android.hardware.memtrack@1.0.so
+790bbb5000-790bbb6000 r--s 00000000 103:12 907                           /system/usr/hyphen-data/hyph-hi.hyb
+790bbb6000-790bbb8000 r--s 00000000 103:12 1866                          /system/fonts/NotoSansLycian-Regular.ttf
+790bbb8000-790bbba000 r--s 00000000 103:12 1854                          /system/fonts/NotoSansLisu-Regular.ttf
+790bbba000-790bbc2000 r--s 00000000 103:12 1966                          /system/fonts/NotoSansLao-Bold.ttf
+790bbc2000-790bbd0000 r--s 00000000 103:12 1888                          /system/fonts/NotoSansMalayalam-Bold.ttf
+790bbd0000-790bc2c000 r-xp 00000000 103:12 149                           /system/lib64/libhidltransport.so
+790bc2c000-790bc34000 r--p 0005b000 103:12 149                           /system/lib64/libhidltransport.so
+790bc34000-790bc35000 rw-p 00063000 103:12 149                           /system/lib64/libhidltransport.so
+790bc35000-790bc38000 r--s 00000000 103:12 1824                          /system/fonts/NotoSansLimbu-Regular.ttf
+790bc38000-790bc41000 r--s 00000000 103:12 1992                          /system/fonts/NotoSansKhmerUI-Bold.ttf
+790bc41000-790bc5f000 r--s 00000000 103:12 1953                          /system/fonts/NotoNaskhArabicUI-Regular.ttf
+790bc5f000-790bc79000 r-xp 00000000 103:12 419                           /system/lib64/libbacktrace.so
+790bc79000-790bc7a000 ---p 00000000 00:00 0 
+790bc7a000-790bc7b000 r--p 0001a000 103:12 419                           /system/lib64/libbacktrace.so
+790bc7b000-790bc7c000 rw-p 0001b000 103:12 419                           /system/lib64/libbacktrace.so
+790bc7c000-790bc82000 r--s 00000000 103:12 1848                          /system/fonts/NotoSansCham-Bold.ttf
+790bc82000-790bcfa000 r-xp 00000000 103:12 417                           /system/lib64/libft2.so
+790bcfa000-790bcfb000 ---p 00000000 00:00 0 
+790bcfb000-790bcfe000 r--p 00078000 103:12 417                           /system/lib64/libft2.so
+790bcfe000-790bcff000 rw-p 0007b000 103:12 417                           /system/lib64/libft2.so
+790bcff000-790bd09000 r--s 00000000 103:12 1868                          /system/fonts/NotoSansKhmerUI-Regular.ttf
+790bd09000-790bd17000 r--s 00000000 103:12 1991                          /system/fonts/NotoSansMalayalam-Regular.ttf
+790bd17000-790bd34000 r--s 00000000 103:12 1925                          /system/fonts/NotoNaskhArabic-Bold.ttf
+790bd34000-790bd36000 r-xp 00000000 103:12 161                           /system/lib64/libhardware.so
+790bd36000-790bd37000 r--p 00001000 103:12 161                           /system/lib64/libhardware.so
+790bd37000-790bd38000 rw-p 00002000 103:12 161                           /system/lib64/libhardware.so
+790bd38000-790bd39000 r--s 00000000 103:12 956                           /system/usr/hyphen-data/hyph-gu.hyb
+790bd39000-790bd3d000 r--s 00000000 103:12 1971                          /system/fonts/NotoSansGlagolitic-Regular.ttf
+790bd3d000-790bd46000 r--s 00000000 103:12 1877                          /system/fonts/NotoSansTamilUI-Bold.ttf
+790bd46000-790bd4f000 r--s 00000000 103:12 1944                          /system/fonts/NotoSansTamilUI-Regular.ttf
+790bd4f000-790bd72000 r-xp 00000000 103:12 108                           /system/lib64/libEGL.so
+790bd72000-790bd76000 r--p 00022000 103:12 108                           /system/lib64/libEGL.so
+790bd76000-790bd77000 rw-p 00026000 103:12 108                           /system/lib64/libEGL.so
+790bd77000-790bd7e000 rw-p 00000000 00:00 0                              [anon:.bss]
+790bd7e000-790bd7f000 r--s 00000000 103:12 959                           /system/usr/hyphen-data/hyph-eu.hyb
+790bd7f000-790bd83000 r--s 00000000 103:12 1898                          /system/fonts/NotoSansBatak-Regular.ttf
+790bd83000-790bd8c000 r--s 00000000 103:12 1840                          /system/fonts/NotoSansTamil-Bold.ttf
+790bd8c000-790bd95000 r--s 00000000 103:12 1841                          /system/fonts/NotoSansTamil-Regular.ttf
+790bd95000-790bdb8000 r-xp 00000000 103:12 85                            /system/lib64/liblzma.so
+790bdb8000-790bdb9000 r--p 00022000 103:12 85                            /system/lib64/liblzma.so
+790bdb9000-790bdba000 rw-p 00023000 103:12 85                            /system/lib64/liblzma.so
+790bdba000-790bdc0000 rw-p 00000000 00:00 0                              [anon:.bss]
+790bdc0000-790bdc8000 r--s 00000000 103:12 1867                          /system/fonts/NotoSansLao-Regular.ttf
+790bdc8000-790bdd0000 r--s 00000000 103:12 1969                          /system/fonts/NotoSansGurmukhiUI-Bold.ttf
+790bdd0000-790bdd8000 r--s 00000000 103:12 1996                          /system/fonts/NotoSansGurmukhiUI-Regular.ttf
+790bdd8000-790bdf5000 r--s 00000000 103:12 1869                          /system/fonts/NotoNaskhArabic-Regular.ttf
+790bdf5000-790bdf9000 r-xp 00000000 103:12 162                           /system/lib64/libpowermanager.so
+790bdf9000-790bdfa000 ---p 00000000 00:00 0 
+790bdfa000-790bdfb000 r--p 00004000 103:12 162                           /system/lib64/libpowermanager.so
+790bdfb000-790bdfc000 rw-p 00005000 103:12 162                           /system/lib64/libpowermanager.so
+790bdfc000-790bdfd000 r--s 00000000 103:12 942                           /system/usr/hyphen-data/hyph-bn.hyb
+790bdfd000-790be03000 r--s 00000000 103:12 1928                          /system/fonts/NotoSansCham-Regular.ttf
+790be03000-790c59f000 r-xp 00000000 103:12 83                            /system/lib64/libskia.so
+790c59f000-790c5a0000 ---p 00000000 00:00 0 
+790c5a0000-790c5e6000 r--p 0079c000 103:12 83                            /system/lib64/libskia.so
+790c5e6000-790c5e7000 rw-p 007e2000 103:12 83                            /system/lib64/libskia.so
+790c5e7000-790c5ed000 rw-p 00000000 00:00 0                              [anon:.bss]
+790c5ed000-790c5ef000 r--s 00000000 103:12 1912                          /system/fonts/NotoSansKayahLi-Regular.ttf
+790c5ef000-790c5f3000 r--s 00000000 103:12 1905                          /system/fonts/NotoSansThaana-Bold.ttf
+790c5f3000-790c5fb000 r--s 00000000 103:12 1948                          /system/fonts/NotoSansGurmukhi-Bold.ttf
+790c5fb000-790c61b000 r--s 00000000 00:10 5382                           /dev/__properties__/u:object_r:persist_debug_prop:s0
+790c61b000-790c620000 r-xp 00000000 103:12 260                           /system/lib64/libstagefright_omx_utils.so
+790c620000-790c621000 r--p 00004000 103:12 260                           /system/lib64/libstagefright_omx_utils.so
+790c621000-790c622000 rw-p 00005000 103:12 260                           /system/lib64/libstagefright_omx_utils.so
+790c622000-790c624000 r--s 00000000 103:12 1964                          /system/fonts/NotoSansInscriptionalParthian-Regular.ttf
+790c624000-790c628000 r--s 00000000 103:12 1919                          /system/fonts/NotoSansThaana-Regular.ttf
+790c628000-790c630000 r--s 00000000 103:12 1960                          /system/fonts/NotoSansGurmukhi-Regular.ttf
+790c630000-790c635000 r--s 00000000 103:12 1872                          /system/fonts/NotoSansGeorgian-Bold.ttf
+790c635000-790c63a000 r--s 00000000 103:12 1884                          /system/fonts/NotoSansGeorgian-Regular.ttf
+790c63a000-790c657000 r--s 00196000 103:12 1677                          /system/framework/ext.jar
+790c657000-790c677000 r--s 00000000 00:10 5392                           /dev/__properties__/u:object_r:radio_prop:s0
+790c677000-790c6b2000 r-xp 00000000 103:12 298                           /system/lib64/libstagefright_foundation.so
+790c6b2000-790c6b4000 r--p 0003a000 103:12 298                           /system/lib64/libstagefright_foundation.so
+790c6b4000-790c6b9000 rw-p 0003c000 103:12 298                           /system/lib64/libstagefright_foundation.so
+790c6b9000-790c6ba000 rw-p 00000000 00:00 0                              [anon:.bss]
+790c6ba000-790c6bc000 r--s 00000000 103:12 1862                          /system/fonts/NotoSansInscriptionalPahlavi-Regular.ttf
+790c6bc000-790c6c0000 r--s 00000000 103:12 1976                          /system/fonts/NotoSansArmenian-Bold.ttf
+790c6c0000-790c6c2000 r-xp 00000000 103:12 384                           /system/lib64/libsync.so
+790c6c2000-790c6c3000 r--p 00001000 103:12 384                           /system/lib64/libsync.so
+790c6c3000-790c6c4000 rw-p 00002000 103:12 384                           /system/lib64/libsync.so
+790c6c4000-790c6c5000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790c6c5000-790c6c9000 r--s 00000000 103:12 1820                          /system/fonts/NotoSansArmenian-Regular.ttf
+790c6c9000-790c6ce000 r--s 00000000 103:12 1833                          /system/fonts/NotoSansThaiUI-Bold.ttf
+790c6ce000-790c6d4000 r--s 00000000 103:12 1870                          /system/fonts/NotoSansThaiUI-Regular.ttf
+790c6d4000-790c6d9000 r--s 00000000 103:12 1940                          /system/fonts/NotoSansThai-Bold.ttf
+790c6d9000-790c6df000 r--s 00000000 103:12 1989                          /system/fonts/NotoSansThai-Regular.ttf
+790c6df000-790c6ff000 r--s 00000000 00:10 5403                           /dev/__properties__/properties_serial
+790c6ff000-790c700000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790c700000-790c704000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790c704000-790c705000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790c705000-790c709000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790c709000-790c70a000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c70a000-790c70d000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790c70d000-790c70e000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c70e000-790c710000 rw-p 00000000 00:04 262756                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790c710000-790c711000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c711000-790c714000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790c714000-790c715000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c715000-790c717000 rw-p 00000000 00:04 262755                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790c717000-790c718000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c718000-790c71b000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790c71b000-790c71c000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c71c000-790c730000 r-xp 00000000 103:12 400                           /system/lib64/libmedia_helper.so
+790c730000-790c731000 ---p 00000000 00:00 0 
+790c731000-790c733000 r--p 00014000 103:12 400                           /system/lib64/libmedia_helper.so
+790c733000-790c734000 rw-p 00016000 103:12 400                           /system/lib64/libmedia_helper.so
+790c734000-790c739000 r--s 00000000 103:12 1863                          /system/fonts/NotoSansHebrew-Bold.ttf
+790c739000-790c73e000 r--s 00000000 103:12 1983                          /system/fonts/NotoSansHebrew-Regular.ttf
+790c73e000-790c73f000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790c73f000-790c743000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790c743000-790c744000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c744000-790c747000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790c747000-790c748000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c748000-790c749000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790c749000-790c74d000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790c74d000-790c760000 r-xp 00000000 103:12 166                           /system/lib64/libaudioutils.so
+790c760000-790c761000 r--p 00012000 103:12 166                           /system/lib64/libaudioutils.so
+790c761000-790c762000 rw-p 00013000 103:12 166                           /system/lib64/libaudioutils.so
+790c762000-790c763000 r--s 00000000 103:12 947                           /system/usr/hyphen-data/hyph-bg.hyb
+790c763000-790c764000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c764000-790c767000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790c767000-790c768000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c768000-790c769000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790c769000-790c76d000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790c76d000-790c76e000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c76e000-790c771000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790c771000-790c772000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c772000-790c773000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790c773000-790c777000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790c777000-790c778000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c778000-790c77b000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790c77b000-790c77c000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790c77c000-790c780000 rw-p 00000000 00:04 19245                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c780000-790c784000 rw-p 00000000 00:04 19244                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c784000-790c788000 rw-p 00000000 00:04 19243                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c788000-790c78c000 rw-p 00000000 00:04 19242                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c78c000-790c790000 rw-p 00000000 00:04 19241                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c790000-790c794000 rw-p 00000000 00:04 19240                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c794000-790c7b8000 r-xp 00000000 103:12 284                           /system/lib64/libhwbinder.so
+790c7b8000-790c7b9000 ---p 00000000 00:00 0 
+790c7b9000-790c7bb000 r--p 00024000 103:12 284                           /system/lib64/libhwbinder.so
+790c7bb000-790c7bc000 rw-p 00026000 103:12 284                           /system/lib64/libhwbinder.so
+790c7bc000-790c7c0000 rw-p 00000000 00:04 19239                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c7c0000-790c7c4000 rw-p 00000000 00:04 19238                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c7c4000-790c7c8000 rw-p 00000000 00:04 19237                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c7c8000-790c7f6000 r-xp 00000000 103:12 380                           /system/lib64/libmediadrm.so
+790c7f6000-790c7fe000 r--p 0002d000 103:12 380                           /system/lib64/libmediadrm.so
+790c7fe000-790c7ff000 rw-p 00035000 103:12 380                           /system/lib64/libmediadrm.so
+790c7ff000-790c801000 r--s 00000000 103:12 1842                          /system/fonts/NotoSansImperialAramaic-Regular.ttf
+790c801000-790c805000 rw-p 00000000 00:04 19236                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c805000-790c809000 rw-p 00000000 00:04 19235                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c809000-790c80d000 rw-p 00000000 00:04 19234                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c80d000-790c810000 r-xp 00000000 103:12 349                           /system/lib64/android.hidl.token@1.0-utils.so
+790c810000-790c811000 r--p 00002000 103:12 349                           /system/lib64/android.hidl.token@1.0-utils.so
+790c811000-790c812000 rw-p 00003000 103:12 349                           /system/lib64/android.hidl.token@1.0-utils.so
+790c812000-790c813000 r--s 00000000 103:12 941                           /system/usr/hyphen-data/hyph-as.hyb
+790c813000-790c815000 r--s 00000000 103:12 1897                          /system/fonts/NotoSansHanunoo-Regular.ttf
+790c815000-790c819000 rw-p 00000000 00:04 19233                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c819000-790c81d000 rw-p 00000000 00:04 19232                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c81d000-790c821000 rw-p 00000000 00:04 19231                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c821000-790c825000 rw-p 00000000 00:04 19230                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c825000-790c829000 rw-p 00000000 00:04 19229                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c829000-790c82d000 rw-p 00000000 00:04 19228                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c82d000-790c831000 rw-p 00000000 00:04 19227                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c831000-790c835000 rw-p 00000000 00:04 19226                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c835000-790c839000 rw-p 00000000 00:04 19225                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c839000-790c83d000 rw-p 00000000 00:04 19224                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c83d000-790c841000 rw-p 00000000 00:04 19223                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c841000-790c845000 rw-p 00000000 00:04 19222                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c845000-790c849000 rw-p 00000000 00:04 19221                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c849000-790c84d000 rw-p 00000000 00:04 19220                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c84d000-790c851000 rw-p 00000000 00:04 19219                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c851000-790c855000 rw-p 00000000 00:04 19218                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c855000-790c859000 rw-p 00000000 00:04 19217                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c859000-790c85d000 rw-p 00000000 00:04 19216                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c85d000-790c86f000 r-xp 00000000 103:12 75                            /system/lib64/libsensor.so
+790c86f000-790c870000 ---p 00000000 00:00 0 
+790c870000-790c873000 r--p 00012000 103:12 75                            /system/lib64/libsensor.so
+790c873000-790c874000 rw-p 00015000 103:12 75                            /system/lib64/libsensor.so
+790c874000-790c878000 rw-p 00000000 00:04 19215                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c878000-790c87c000 rw-p 00000000 00:04 19214                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c87c000-790c880000 rw-p 00000000 00:04 19213                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c880000-790c884000 rw-p 00000000 00:04 19212                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c884000-790c888000 rw-p 00000000 00:04 19211                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c888000-790c88c000 rw-p 00000000 00:04 19210                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c88c000-790c890000 rw-p 00000000 00:04 19209                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c890000-790c8bc000 r-xp 00000000 103:12 81                            /system/lib64/libmemunreachable.so
+790c8bc000-790c8be000 r--p 0002b000 103:12 81                            /system/lib64/libmemunreachable.so
+790c8be000-790c8bf000 rw-p 0002d000 103:12 81                            /system/lib64/libmemunreachable.so
+790c8bf000-790c8c3000 rw-p 00000000 00:04 19208                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c8c3000-790c8c7000 rw-p 00000000 00:04 19207                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c8c7000-790c8cb000 rw-p 00000000 00:04 19206                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c8cb000-790c8cf000 rw-p 00000000 00:04 19205                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c8cf000-790c8d3000 rw-p 00000000 00:04 19204                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c8d3000-790c8e3000 r-xp 00000000 103:12 356                           /system/lib64/libcutils.so
+790c8e3000-790c8e4000 ---p 00000000 00:00 0 
+790c8e4000-790c8e6000 r--p 00010000 103:12 356                           /system/lib64/libcutils.so
+790c8e6000-790c8e7000 rw-p 00012000 103:12 356                           /system/lib64/libcutils.so
+790c8e7000-790c8e9000 r--s 00000000 103:12 1860                          /system/fonts/NotoSansGothic-Regular.ttf
+790c8e9000-790c8ed000 rw-p 00000000 00:04 19203                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790c8ed000-790c90d000 r--s 00000000 00:10 5363                           /dev/__properties__/u:object_r:default_prop:s0
+790c90d000-790c9fc000 r-xp 00000000 103:12 305                           /system/lib64/libandroid_runtime.so
+790c9fc000-790c9fd000 rwxp 000ef000 103:12 305                           /system/lib64/libandroid_runtime.so
+790c9fd000-790cad1000 r-xp 000f0000 103:12 305                           /system/lib64/libandroid_runtime.so
+790cad1000-790caee000 r--p 001c3000 103:12 305                           /system/lib64/libandroid_runtime.so
+790caee000-790caef000 rw-p 001e0000 103:12 305                           /system/lib64/libandroid_runtime.so
+790caef000-790caf3000 rw-p 00000000 00:00 0                              [anon:.bss]
+790caf3000-790caf4000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790caf4000-790caf8000 rw-p 00000000 00:04 19202                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790caf8000-790cafc000 rw-p 00000000 00:04 19201                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cafc000-790cb00000 rw-p 00000000 00:04 19200                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb00000-790cb04000 rw-p 00000000 00:04 19199                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb04000-790cb08000 rw-p 00000000 00:04 19198                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb08000-790cb0c000 rw-p 00000000 00:04 19197                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb0c000-790cb2a000 r-xp 00000000 103:12 174                           /system/lib64/android.hidl.memory@1.0.so
+790cb2a000-790cb2b000 ---p 00000000 00:00 0 
+790cb2b000-790cb2e000 r--p 0001e000 103:12 174                           /system/lib64/android.hidl.memory@1.0.so
+790cb2e000-790cb2f000 rw-p 00021000 103:12 174                           /system/lib64/android.hidl.memory@1.0.so
+790cb2f000-790cb30000 r--p 00000000 00:00 0                              [anon:atexit handlers]
+790cb30000-790cb34000 rw-p 00000000 00:04 19196                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb34000-790cb38000 rw-p 00000000 00:04 19195                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb38000-790cb3c000 rw-p 00000000 00:04 19194                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb3c000-790cb40000 rw-p 00000000 00:04 19193                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb40000-790cb41000 r--p 00000000 00:00 0                              [anon:atexit handlers]
+790cb41000-790cb61000 r--s 00000000 00:10 5403                           /dev/__properties__/properties_serial
+790cb61000-790cb64000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cb64000-790cb65000 r--p 00000000 00:00 0                              [anon:atexit handlers]
+790cb65000-790cb66000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cb66000-790cb6a000 rw-p 00000000 00:04 19192                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb6a000-790cb6e000 rw-p 00000000 00:04 19191                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb6e000-790cb72000 rw-p 00000000 00:04 19190                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb72000-790cb76000 rw-p 00000000 00:04 19189                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb76000-790cb77000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+790cb77000-790cb7b000 rw-p 00000000 00:04 19188                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb7b000-790cb7f000 rw-p 00000000 00:04 19187                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb7f000-790cb80000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cb80000-790cb81000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cb81000-790cb84000 r--s 00000000 103:12 1955                          /system/fonts/NotoSansDeseret-Regular.ttf
+790cb84000-790cb88000 rw-p 00000000 00:04 19186                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb88000-790cb8c000 rw-p 00000000 00:04 19185                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb8c000-790cb90000 rw-p 00000000 00:04 19184                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb90000-790cb94000 rw-p 00000000 00:04 19183                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb94000-790cb98000 rw-p 00000000 00:04 19182                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb98000-790cb9c000 rw-p 00000000 00:04 19181                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cb9c000-790cb9d000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cb9d000-790cb9f000 r--s 00000000 103:12 1974                          /system/fonts/NotoSansCypriot-Regular.ttf
+790cb9f000-790cba3000 rw-p 00000000 00:04 19180                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cba3000-790cba7000 rw-p 00000000 00:04 19179                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cba7000-790cbab000 rw-p 00000000 00:04 19178                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbab000-790cbaf000 rw-p 00000000 00:04 19177                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbaf000-790cbb3000 rw-p 00000000 00:04 19176                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbb3000-790cbb4000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cbb4000-790cbb6000 r--s 00000000 103:12 1893                          /system/fonts/NotoSansCarian-Regular.ttf
+790cbb6000-790cbba000 rw-p 00000000 00:04 19175                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbba000-790cbbe000 rw-p 00000000 00:04 19174                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbbe000-790cbc2000 rw-p 00000000 00:04 19173                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbc2000-790cbc6000 rw-p 00000000 00:04 19172                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbc6000-790cbca000 rw-p 00000000 00:04 19171                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbca000-790cbce000 rw-p 00000000 00:04 19170                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbce000-790cbd2000 rw-p 00000000 00:04 19169                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbd2000-790cbd3000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cbd3000-790cbd4000 r--p 00000000 00:00 0                              [anon:atexit handlers]
+790cbd4000-790cbd8000 rw-p 00000000 00:04 19168                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbd8000-790cbdc000 rw-p 00000000 00:04 19167                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbdc000-790cbe0000 rw-p 00000000 00:04 19166                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbe0000-790cbe4000 rw-p 00000000 00:04 19165                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbe4000-790cbe6000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cbe6000-790cbea000 rw-p 00000000 00:04 19164                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbea000-790cbee000 rw-p 00000000 00:04 19163                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbee000-790cbf2000 rw-p 00000000 00:04 19162                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbf2000-790cbf6000 rw-p 00000000 00:04 19161                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbf6000-790cbfa000 rw-p 00000000 00:04 19160                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cbfa000-790cbfb000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cbfb000-790cbfd000 r--s 00000000 103:12 1900                          /system/fonts/NotoSansBuhid-Regular.ttf
+790cbfd000-790cc01000 rw-p 00000000 00:04 19159                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc01000-790cc05000 rw-p 00000000 00:04 19158                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc05000-790cc06000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cc06000-790cc0a000 rw-p 00000000 00:04 19157                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc0a000-790cc0e000 rw-p 00000000 00:04 19156                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc0e000-790cc12000 rw-p 00000000 00:04 19155                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc12000-790cc13000 rw-p 00000000 00:00 0                              [anon:linker_alloc_lob]
+790cc13000-790cc16000 r--s 00000000 103:12 1997                          /system/fonts/NotoSansAvestan-Regular.ttf
+790cc16000-790cc1a000 rw-p 00000000 00:04 19154                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc1a000-790cc1e000 rw-p 00000000 00:04 19153                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc1e000-790cc22000 rw-p 00000000 00:04 19152                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc22000-790cc26000 rw-p 00000000 00:04 19151                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc26000-790cc2a000 rw-p 00000000 00:04 19150                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc2a000-790cc2e000 rw-p 00000000 00:04 19149                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc2e000-790cc32000 rw-p 00000000 00:04 19148                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc32000-790cc36000 rw-p 00000000 00:04 19147                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc36000-790cc3a000 rw-p 00000000 00:04 19146                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc3a000-790cc3e000 rw-p 00000000 00:04 19145                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc3e000-790cc42000 rw-p 00000000 00:04 19144                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc42000-790cc43000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cc43000-790cc47000 rw-p 00000000 00:04 19143                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc47000-790cc4b000 rw-p 00000000 00:04 19142                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc4b000-790cc4d000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cc4d000-790cc51000 rw-p 00000000 00:04 19141                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc51000-790cc55000 rw-p 00000000 00:04 19140                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc55000-790cc59000 rw-p 00000000 00:04 19139                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc59000-790cc5a000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cc5a000-790cc5c000 r--s 00000000 103:12 1861                          /system/fonts/NotoSansBuginese-Regular.ttf
+790cc5c000-790cc60000 rw-p 00000000 00:04 19138                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc60000-790cc64000 rw-p 00000000 00:04 19137                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc64000-790cc68000 rw-p 00000000 00:04 19136                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc68000-790cc6c000 rw-p 00000000 00:04 19135                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc6c000-790cc70000 rw-p 00000000 00:04 19134                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc70000-790cc74000 rw-p 00000000 00:04 19133                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc74000-790cc78000 rw-p 00000000 00:04 19132                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc78000-790cc7c000 rw-p 00000000 00:04 19131                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc7c000-790cc80000 rw-p 00000000 00:04 19130                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc80000-790cc84000 rw-p 00000000 00:04 19129                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc84000-790cc88000 rw-p 00000000 00:04 19128                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc88000-790cc8c000 rw-p 00000000 00:04 19127                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc8c000-790cc90000 rw-p 00000000 00:04 19126                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc90000-790cc94000 rw-p 00000000 00:04 19125                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc94000-790cc95000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cc95000-790cc96000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cc96000-790cc97000 r--s 00000000 103:12 1742                          /system/framework/com.google.vr.platform.jar
+790cc97000-790cc9b000 rw-p 00000000 00:04 19124                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc9b000-790cc9f000 rw-p 00000000 00:04 19123                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cc9f000-790cca3000 rw-p 00000000 00:04 19122                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cca3000-790cca7000 rw-p 00000000 00:04 19121                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cca7000-790ccab000 rw-p 00000000 00:04 19120                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccab000-790ccaf000 rw-p 00000000 00:04 19119                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccaf000-790ccb3000 rw-p 00000000 00:04 19118                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccb3000-790ccb7000 rw-p 00000000 00:04 19117                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccb7000-790ccb8000 rw-p 00000000 00:00 0                              [anon:linker_alloc_small_objects]
+790ccb8000-790ccb9000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790ccb9000-790ccba000 r--s 00000000 103:12 1806                          /system/framework/android.hidl.manager-V1.0-java.jar
+790ccba000-790ccbe000 rw-p 00000000 00:04 19116                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccbe000-790ccc2000 rw-p 00000000 00:04 19115                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccc2000-790ccc6000 rw-p 00000000 00:04 19114                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccc6000-790ccca000 rw-p 00000000 00:04 19113                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccca000-790ccce000 rw-p 00000000 00:04 19112                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccce000-790cccf000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cccf000-790ccd3000 rw-p 00000000 00:04 19111                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccd3000-790ccd7000 rw-p 00000000 00:04 19110                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccd7000-790ccdb000 rw-p 00000000 00:04 19109                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccdb000-790ccdf000 rw-p 00000000 00:04 19108                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccdf000-790cce0000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+790cce0000-790cce1000 rw-p 00000000 00:00 0                              [anon:linker_alloc_small_objects]
+790cce1000-790cce2000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cce2000-790cce3000 r--s 00000000 103:12 1676                          /system/framework/android.hidl.base-V1.0-java.jar
+790cce3000-790cce7000 rw-p 00000000 00:04 19107                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cce7000-790cceb000 rw-p 00000000 00:04 19106                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cceb000-790ccef000 rw-p 00000000 00:04 19105                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccef000-790ccf3000 rw-p 00000000 00:04 19104                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccf3000-790ccf7000 rw-p 00000000 00:04 19103                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccf7000-790ccfb000 rw-p 00000000 00:04 19102                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccfb000-790ccff000 rw-p 00000000 00:04 19101                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ccff000-790cd03000 rw-p 00000000 00:04 19100                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd03000-790cd07000 rw-p 00000000 00:04 19099                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd07000-790cd0b000 rw-p 00000000 00:04 19098                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd0b000-790cd0f000 rw-p 00000000 00:04 19097                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd0f000-790cd13000 rw-p 00000000 00:04 19096                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd13000-790cd17000 rw-p 00000000 00:04 19095                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd17000-790cd1b000 rw-p 00000000 00:04 19094                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd1b000-790cd1f000 rw-p 00000000 00:04 19093                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd1f000-790cd23000 rw-p 00000000 00:04 19092                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd23000-790cd27000 rw-p 00000000 00:04 19091                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd27000-790cd28000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cd28000-790cd29000 r--s 00000000 103:12 1520                          /system/framework/org.apache.http.legacy.boot.jar
+790cd29000-790cd2a000 r--s 00000000 103:12 1681                          /system/framework/ims-common.jar
+790cd2a000-790cd2b000 r--s 00000000 103:12 1809                          /system/framework/voip-common.jar
+790cd2b000-790cd2f000 rw-p 00000000 00:04 19090                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd2f000-790cd33000 rw-p 00000000 00:04 19089                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd33000-790cd37000 rw-p 00000000 00:04 19088                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd37000-790cd3b000 rw-p 00000000 00:04 19087                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd3b000-790cd3f000 rw-p 00000000 00:04 19086                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd3f000-790cd43000 rw-p 00000000 00:04 19085                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd43000-790cd47000 rw-p 00000000 00:04 19084                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd47000-790cd4b000 rw-p 00000000 00:04 19083                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd4b000-790cd4f000 rw-p 00000000 00:04 19082                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd4f000-790cd53000 rw-p 00000000 00:04 19081                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd53000-790cd57000 rw-p 00000000 00:04 19080                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd57000-790cd58000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cd58000-790cd5c000 rw-p 00000000 00:04 19079                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd5c000-790cd60000 rw-p 00000000 00:04 19078                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd60000-790cd64000 rw-p 00000000 00:04 19077                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd64000-790cd68000 rw-p 00000000 00:04 19076                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd68000-790cd6c000 rw-p 00000000 00:04 19075                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd6c000-790cd70000 rw-p 00000000 00:04 19074                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd70000-790cd71000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cd71000-790cd72000 r--s 00000000 103:12 1816                          /system/framework/telephony-common.jar
+790cd72000-790cd73000 r--s 00000000 103:12 1746                          /system/framework/framework.jar
+790cd73000-790cd77000 rw-p 00000000 00:04 19073                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd77000-790cd78000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cd78000-790cd7c000 rw-p 00000000 00:04 19072                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd7c000-790cd80000 rw-p 00000000 00:04 19071                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd80000-790cd84000 rw-p 00000000 00:04 19070                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd84000-790cd88000 rw-p 00000000 00:04 19069                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd88000-790cd8c000 rw-p 00000000 00:04 19068                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd8c000-790cd90000 rw-p 00000000 00:04 19067                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd90000-790cd94000 rw-p 00000000 00:04 19066                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd94000-790cd98000 rw-p 00000000 00:04 19065                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd98000-790cd9c000 rw-p 00000000 00:04 19064                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cd9c000-790cda0000 rw-p 00000000 00:04 19063                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cda0000-790cda4000 rw-p 00000000 00:04 19062                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cda4000-790cda8000 rw-p 00000000 00:04 19061                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cda8000-790cda9000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cda9000-790cdaa000 r--s 00000000 103:12 1666                          /system/framework/legacy-test.jar
+790cdaa000-790cdab000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cdab000-790cdaf000 rw-p 00000000 00:04 19060                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cdaf000-790cdb0000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cdb0000-790cdb4000 rw-p 00000000 00:04 19059                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cdb4000-790cdb8000 rw-p 00000000 00:04 19058                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cdb8000-790cdbc000 rw-p 00000000 00:04 19057                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cdbc000-790cdbd000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cdbd000-790cdbe000 r--s 00004000 103:12 1687                          /system/framework/apache-xml.jar
+790cdbe000-790cdbf000 r--s 00000000 103:12 1808                          /system/framework/bouncycastle.jar
+790cdbf000-790cdc3000 rw-p 00000000 00:04 19056                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cdc3000-790cdc7000 rw-p 00000000 00:04 19055                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cdc7000-790cdcb000 rw-p 00000000 00:04 19054                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cdcb000-790cdcf000 rw-p 00000000 00:04 19053                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cdcf000-790cdd3000 rw-p 00000000 00:04 19052                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cdd3000-790cdd7000 rw-p 00000000 00:04 19051                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cdd7000-790cddb000 rw-p 00000000 00:04 19050                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cddb000-790cddf000 rw-p 00000000 00:04 19049                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cddf000-790cde3000 rw-p 00000000 00:04 19048                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cde3000-790cde7000 rw-p 00000000 00:04 19047                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cde7000-790ce27000 rw-p 00000000 00:04 18985                          /dev/ashmem/dalvik-mark stack (deleted)
+790ce27000-790ce28000 r--p 00000000 00:00 0                              [anon:atexit handlers]
+790ce28000-790ce29000 rw-p 00000000 00:00 0                              [anon:arc4random data]
+790ce29000-790ce2a000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790ce2a000-790ce2b000 r--s 00000000 103:12 1811                          /system/framework/okhttp.jar
+790ce2b000-790ce2c000 r--s 00000000 103:12 1678                          /system/framework/conscrypt.jar
+790ce2c000-790ce30000 rw-p 00000000 00:04 19046                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce30000-790ce31000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790ce31000-790ce32000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790ce32000-790ce34000 rw-p 00000000 00:04 262754                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790ce34000-790ce38000 rw-p 00000000 00:04 19045                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce38000-790ce3c000 rw-p 00000000 00:04 19044                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce3c000-790ce40000 rw-p 00000000 00:04 19043                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce40000-790ce44000 rw-p 00000000 00:04 19042                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce44000-790ce48000 rw-p 00000000 00:04 19041                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce48000-790ce4c000 rw-p 00000000 00:04 19040                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce4c000-790ce50000 rw-p 00000000 00:04 19039                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce50000-790ce54000 rw-p 00000000 00:04 19038                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce54000-790ce74000 rw-p 00000000 00:04 18982                          /dev/ashmem/dalvik-large marked objects (deleted)
+790ce74000-790ce75000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+790ce75000-790ce76000 rw-p 00000000 00:00 0                              [anon:linker_alloc_small_objects]
+790ce76000-790ce77000 r--s 00004000 103:12 1750                          /system/framework/core-libart.jar
+790ce77000-790ce79000 rw-p 00000000 00:04 262753                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790ce79000-790ce7d000 rw-p 00000000 00:04 19037                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce7d000-790ce7e000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790ce7e000-790ce80000 rw-p 00000000 00:04 267665                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790ce80000-790ce84000 rw-p 00000000 00:04 19036                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce84000-790ce88000 rw-p 00000000 00:04 19035                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce88000-790ce8a000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790ce8a000-790ce8e000 rw-p 00000000 00:04 19034                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce8e000-790ce92000 rw-p 00000000 00:04 19033                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce92000-790ce96000 rw-p 00000000 00:04 19032                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce96000-790ce9a000 rw-p 00000000 00:04 19031                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce9a000-790ce9e000 rw-p 00000000 00:04 19030                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790ce9e000-790cf04000 r--s 00000000 103:12 1727                          /system/framework/arm64/boot-okhttp.vdex
+790cf04000-790cf05000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cf05000-790cf09000 rw-p 00000000 00:04 19029                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf09000-790cf0d000 rw-p 00000000 00:04 19028                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf0d000-790cf0e000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cf0e000-790cf12000 rw-p 00000000 00:04 19027                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf12000-790cf16000 rw-p 00000000 00:04 19026                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf16000-790cf1a000 rw-p 00000000 00:04 19025                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf1a000-790cf3a000 rw-p 00000000 00:04 18981                          /dev/ashmem/dalvik-large live objects (deleted)
+790cf3a000-790cf5c000 r--s 00000000 103:12 1725                          /system/framework/arm64/boot-ims-common.vdex
+790cf5c000-790cf5d000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cf5d000-790cf61000 rw-p 00000000 00:04 19024                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf61000-790cf65000 rw-p 00000000 00:04 19023                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf65000-790cf69000 rw-p 00000000 00:04 19022                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf69000-790cf6d000 rw-p 00000000 00:04 19021                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf6d000-790cf6e000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cf6e000-790cf6f000 r--s 0001e000 103:12 1683                          /system/framework/core-oj.jar
+790cf6f000-790cf70000 r--s 00000000 fd:00 258                            /vendor/overlay/Pixel/PixelThemeOverlay.apk
+790cf70000-790cf71000 rw-p 00000000 00:04 22055                          /dev/ashmem/dalvik-mod union bitmap (deleted)
+790cf71000-790cf75000 rw-p 00000000 00:04 19020                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf75000-790cf79000 rw-p 00000000 00:04 19019                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf79000-790cf7d000 rw-p 00000000 00:04 19018                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf7d000-790cf81000 rw-p 00000000 00:04 19017                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf81000-790cf85000 rw-p 00000000 00:04 19016                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf85000-790cf89000 rw-p 00000000 00:04 19015                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf89000-790cf8d000 rw-p 00000000 00:04 19014                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf8d000-790cf8e000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790cf8e000-790cf92000 rw-p 00000000 00:04 19013                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf92000-790cf96000 rw-p 00000000 00:04 19012                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf96000-790cf9a000 rw-p 00000000 00:04 19011                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf9a000-790cf9e000 rw-p 00000000 00:04 19010                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cf9e000-790cfa2000 rw-p 00000000 00:04 19009                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cfa2000-790cfa6000 rw-p 00000000 00:04 19008                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cfa6000-790cfa8000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790cfa8000-790cfac000 rw-p 00000000 00:04 19007                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cfac000-790cfb0000 rw-p 00000000 00:04 19006                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cfb0000-790cfb4000 rw-p 00000000 00:04 19005                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cfb4000-790cfb8000 rw-p 00000000 00:04 19004                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cfb8000-790cfbc000 rw-p 00000000 00:04 19003                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cfbc000-790cfc0000 rw-p 00000000 00:04 19002                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cfc0000-790cfc4000 rw-p 00000000 00:04 19001                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790cfc4000-790cfed000 r--s 00000000 103:12 1724                          /system/framework/arm64/boot-voip-common.vdex
+790cfed000-790d04e000 r--s 00000000 103:12 1703                          /system/framework/arm64/boot-conscrypt.vdex
+790d04e000-790d050000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790d050000-790d052000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790d052000-790d053000 r--p 00000000 00:00 0                              [anon:atexit handlers]
+790d053000-790d057000 rw-p 00000000 00:04 19000                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790d057000-790d05b000 rw-p 00000000 00:04 18999                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790d05b000-790d05f000 rw-p 00000000 00:04 18998                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790d05f000-790d063000 rw-p 00000000 00:04 18997                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790d063000-790d083000 r--s 00000000 00:10 5373                           /dev/__properties__/u:object_r:fingerprint_prop:s0
+790d083000-790d084000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790d084000-790d086000 rw-p 00000000 00:04 19250                          /dev/ashmem/dalvik-indirect ref table (deleted)
+790d086000-790d0a6000 r--s 00000000 00:10 5398                           /dev/__properties__/u:object_r:debug_prop:s0
+790d0a6000-790d0a7000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790d0a7000-790d0a8000 rw-p 00000000 00:00 0                              [anon:linker_alloc_small_objects]
+790d0a8000-790d0ac000 rw-p 00000000 00:04 18996                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790d0ac000-790d0b0000 rw-p 00000000 00:04 18995                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790d0b0000-790d0b4000 rw-p 00000000 00:04 18994                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790d0b4000-790d0b8000 rw-p 00000000 00:04 18993                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790d0b8000-790d0bc000 rw-p 00000000 00:04 18992                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790d0bc000-790d0c0000 rw-p 00000000 00:04 18991                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790d0c0000-790d0c4000 rw-p 00000000 00:04 18990                          /dev/ashmem/dalvik-thread local mark stack (deleted)
+790d0c4000-790d0e4000 r--s 00000000 00:10 5397                           /dev/__properties__/u:object_r:system_prop:s0
+790d0e4000-790d0e5000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790d0e5000-790d0eb000 r--s 00000000 103:12 1726                          /system/framework/arm64/boot-android.hidl.manager-V1.0-java.vdex
+790d0eb000-790d0f6000 r--p 005f3000 103:13 1474604                       /data/dalvik-cache/arm64/system@framework@boot-framework.art
+790d0f6000-790d0f8000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790d0f8000-790d0f9000 r--s 00000000 103:12 1702                          /system/framework/arm64/boot-com.google.vr.platform.vdex
+790d0f9000-790d0fa000 r--p 00001000 103:13 1474611                       /data/dalvik-cache/arm64/system@framework@boot-com.google.vr.platform.art
+790d0fa000-790d0fb000 r--p 00003000 103:13 1474610                       /data/dalvik-cache/arm64/system@framework@boot-android.hidl.manager-V1.0-java.art
+790d0fb000-790d0fe000 r--s 00000000 103:12 1704                          /system/framework/arm64/boot-android.hidl.base-V1.0-java.vdex
+790d0fe000-790d0ff000 r--p 00002000 103:13 1474609                       /data/dalvik-cache/arm64/system@framework@boot-android.hidl.base-V1.0-java.art
+790d0ff000-790d11f000 r--s 00000000 00:10 5372                           /dev/__properties__/u:object_r:vold_prop:s0
+790d11f000-790d13f000 r--s 00000000 00:10 5401                           /dev/__properties__/u:object_r:config_prop:s0
+790d13f000-790d140000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790d140000-790d141000 r--p 00026000 103:13 1474608                       /data/dalvik-cache/arm64/system@framework@boot-org.apache.http.legacy.boot.art
+790d141000-790d142000 r--p 0000a000 103:13 1474607                       /data/dalvik-cache/arm64/system@framework@boot-ims-common.art
+790d142000-790d14b000 r--s 00000000 103:12 1730                          /system/framework/arm64/boot-legacy-test.vdex
+790d14b000-790d14c000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790d14c000-790d14d000 r--p 0000b000 103:13 1474606                       /data/dalvik-cache/arm64/system@framework@boot-voip-common.art
+790d14d000-790d14e000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790d14e000-790d14f000 r--p 00042000 103:13 1474605                       /data/dalvik-cache/arm64/system@framework@boot-telephony-common.art
+790d14f000-790d150000 r--p 0002b000 103:13 1474603                       /data/dalvik-cache/arm64/system@framework@boot-ext.art
+790d150000-790d170000 r--s 00000000 00:10 5400                           /dev/__properties__/u:object_r:dalvik_prop:s0
+790d170000-790d190000 r--s 00000000 00:10 5389                           /dev/__properties__/u:object_r:log_tag_prop:s0
+790d190000-790d191000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+790d191000-790d192000 r--p 00005000 103:13 1474602                       /data/dalvik-cache/arm64/system@framework@boot-legacy-test.art
+790d192000-790d193000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790d193000-790d194000 r--p 00010000 103:13 1474601                       /data/dalvik-cache/arm64/system@framework@boot-apache-xml.art
+790d194000-790d195000 r--p 00031000 103:13 1474600                       /data/dalvik-cache/arm64/system@framework@boot-bouncycastle.art
+790d195000-790d196000 r--p 0002c000 103:13 1474599                       /data/dalvik-cache/arm64/system@framework@boot-okhttp.art
+790d196000-790d198000 r--p 000c5000 103:13 1474597                       /data/dalvik-cache/arm64/system@framework@boot-core-libart.art
+790d198000-790d19c000 r--p 00239000 103:13 1474596                       /data/dalvik-cache/arm64/system@framework@boot.art
+790d19c000-790d19e000 rw-p 00000000 00:04 267664                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790d19e000-790d1a0000 rw-p 00000000 00:04 267663                         /dev/ashmem/dalvik-indirect ref table (deleted)
+790d1a0000-790d1a1000 r--s 00001000 fd:00 258                            /vendor/overlay/Pixel/PixelThemeOverlay.apk
+790d1a1000-790d1a2000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790d1a2000-790d1c2000 r--s 00000000 00:10 5380                           /dev/__properties__/u:object_r:logd_prop:s0
+790d1c2000-790d1c3000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+790d1c3000-790d1c5000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790d1c5000-790d1c6000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+790d1c6000-790d1c9000 rw-p 00000000 00:00 0                              [anon:linker_alloc_small_objects]
+790d1c9000-790d1ca000 r--p 0004a000 103:13 1474598                       /data/dalvik-cache/arm64/system@framework@boot-conscrypt.art
+790d1ca000-790d1cb000 rw-p 00000000 00:00 0                              [anon:linker_alloc_small_objects]
+790d1cb000-790d1cc000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+790d1cc000-790d1cd000 rw-p 00000000 00:00 0                              [anon:linker_alloc_small_objects]
+790d1cd000-790d1ed000 r--s 00000000 00:10 5398                           /dev/__properties__/u:object_r:debug_prop:s0
+790d1ed000-790d20d000 r--s 00000000 00:10 5403                           /dev/__properties__/properties_serial
+790d20d000-790d20e000 r--p 00000000 00:00 0                              [anon:atexit handlers]
+790d20e000-790d211000 rw-p 00000000 00:00 0                              [anon:linker_alloc_small_objects]
+790d211000-790d212000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790d212000-790d213000 ---p 00000000 00:00 0 
+790d213000-790d214000 rw-p 00000000 00:00 0 
+790d214000-790d215000 ---p 00000000 00:00 0 
+790d215000-790d216000 rw-p 00000000 00:00 0                              [anon:linker_alloc_lob]
+790d216000-790d217000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790d217000-790d218000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+790d218000-790d219000 rw-p 00000000 00:00 0                              [anon:linker_alloc_small_objects]
+790d219000-790d21a000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+790d21a000-790d21b000 rw-p 00000000 00:00 0                              [anon:linker_alloc_small_objects]
+790d21b000-790d21c000 r--p 00000000 00:00 0                              [anon:atexit handlers]
+790d21c000-790d21d000 ---p 00000000 00:00 0                              [anon:thread signal stack guard page]
+790d21d000-790d221000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+790d221000-790d222000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790d222000-790d225000 rw-p 00000000 00:00 0                              [anon:bionic TLS]
+790d225000-790d226000 ---p 00000000 00:00 0                              [anon:bionic TLS guard]
+790d226000-790d227000 r--p 00000000 00:00 0                              [vvar]
+790d227000-790d228000 r-xp 00000000 00:00 0                              [vdso]
+790d228000-790d31f000 r-xp 00000000 103:12 2165                          /system/bin/linker64
+790d31f000-790d320000 rw-p 00000000 00:00 0                              [anon:arc4random data]
+790d320000-790d324000 r--p 000f7000 103:12 2165                          /system/bin/linker64
+790d324000-790d325000 rw-p 000fb000 103:12 2165                          /system/bin/linker64
+790d325000-790d391000 rw-p 00000000 00:00 0 
+790d391000-790d392000 r--p 00000000 00:00 0 
+790d392000-790d399000 rw-p 00000000 00:00 0 
+7fcbb3c000-7fcbb3d000 ---p 00000000 00:00 0 
+7fcbb3d000-7fcc33c000 rw-p 00000000 00:00 0                              [stack]

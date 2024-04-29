@@ -2,6 +2,7 @@ package ng1ok.detect;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -24,13 +25,17 @@ public class MainActivity extends AppCompatActivity {
     private TextView tvCheckCRC32;
     private TextView tvCheckCRC32_sys;
 
+    private TextView tvCheckCRC32_mySys;
     private void initView(){
         Button btnRefresh = binding.btnRefresh;
         tvCheckCRC32 = binding.tvCheckCRC32;
         tvCheckCRC32.setText(checkCRC32());
 
         tvCheckCRC32_sys = binding.tvCheckCRC32Sys;
-        tvCheckCRC32_sys.setText(checkCRC32_sys());
+        tvCheckCRC32_sys.setText(checkCRC32WithSyscall());
+
+        tvCheckCRC32_mySys = binding.tvCheckCRC32MySys;
+        tvCheckCRC32_mySys.setText(checkCRC32WithMySyscall());
 
 
         btnRefresh.setOnClickListener(new View.OnClickListener() {
@@ -38,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 tvCheckCRC32.setText(checkCRC32());
 
-                tvCheckCRC32_sys.setText(checkCRC32_sys());
+                tvCheckCRC32_sys.setText(checkCRC32WithSyscall());
+
+                tvCheckCRC32_mySys.setText(checkCRC32WithMySyscall());
             }
         });
     }
@@ -49,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        test();
         initView();
     }
 
@@ -61,5 +68,13 @@ public class MainActivity extends AppCompatActivity {
 
     public native String checkCRC32();
 
-    public native String checkCRC32_sys();
+    public native String checkCRC32WithSyscall();
+
+    public native String checkCRC32WithMySyscall();
+
+    public void test(){
+        Context context = getApplicationContext();
+        String appDataDir = context.getFilesDir().getAbsolutePath();
+        Log.d("AppDataDir", "当前应用程序数据目录路径：" + appDataDir);
+    }
 }

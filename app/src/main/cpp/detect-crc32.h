@@ -6,7 +6,7 @@
 
 extern bool sameTextCRC32;
 extern bool sameTextCRC32_sys;
-
+extern bool sameTextCRC32_mySys;
 
 typedef struct {
     char *buf;
@@ -15,13 +15,17 @@ typedef struct {
 } LocalTextSegInfo;
 
 
+
 __attribute__((constructor()))
 void detectCRC32();
 
 __attribute__((constructor()))
 void detectCRC32WithSyscall();
 
-uint32_t getLocalTextCRC32(const char* pathanme, uint32_t* offset, uint32_t* size, bool useSyscall);
+__attribute__((constructor()))
+void detectCRC32WithMySyscall();
+
+uint32_t getLocalTextCRC32(const char* pathanme, uint32_t* offset, uint32_t* size, int mode);
 
 uint32_t getMapsTextCRC32(const char *soName, uint32_t offset, uint32_t size);
 

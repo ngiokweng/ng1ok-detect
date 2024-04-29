@@ -55,6 +55,25 @@
             tools:layout_editor_absoluteY="86dp" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. "
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/tv_checkCRC32_mySys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="86dp" />
+    </LinearLayout>
 
 </LinearLayout>
 
